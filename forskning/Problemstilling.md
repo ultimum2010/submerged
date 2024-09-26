@@ -5,4 +5,7 @@ Hvordan kan man fjerne gamle garn og krabbeteiner og hindre at havdyr setter seg
 Hvordan kan man fjerne gamle garn og krabbeteiner og hindre at det øker i antall tapte utstyr på havbunnen?
 - Dyrene setter seg fast i teinene og garnene som gjør at vi mister ressurser og dyrene dør.
 - De døde dyrene blir da om til agnet til annet liv i havet.
-- Det forsøpler og p.g.a materialet det er laget av. 
+- Det forsøpler og p.g.a materialet det er laget av.
+
+# Dilemma problemstilling
+Vi kan enten velge å jobbe med å fjerne de gamle krabbeteinene og garnene som allerede er i havet eller å forhindre ar det kommer flere og blir mer spøkelsesfiske.
