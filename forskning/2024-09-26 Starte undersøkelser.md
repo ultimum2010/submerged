@@ -9,6 +9,7 @@
 * Gjøre eksperiment
 	* labben på skola
 	* prototype
+	* legge en matsøppelpose i saltvann og ferskvann i en uke
 * Løsningsforslag
 	* Krabbetein som ikke ruster og som går i oppløsning
 	* Teste i saltvann
@@ -19,3 +20,4 @@
 			* Gummi
 			* Hydrofyl
 		* Krabbeteiner står vanligvis 12-24 timer
+
