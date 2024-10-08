@@ -85,25 +85,25 @@ while True:
                 elif prognr == -1:
                     chewie.gyro_kalibrer()
                 elif prognr == 0:
-                    M07.run(chewie)
+                    M07.run()
                 elif prognr == 1:
-                    M15.run1(chewie)
+                    M15.run()
                 elif prognr == 2:
-                    flytting.run(chewie)
+                    flytting.run()
                 elif prognr == 3:
-                    M08.run1(chewie)
+                    M08.run()
                 elif prognr == 4:
-                    M14.run(chewie)
+                    M14.run()
                 elif prognr == 5:
-                    M12_13.run(chewie)
+                    M12_13.run()
                 elif prognr == 6:
-                    M04.run(chewie)
+                    M04.run()
                 elif prognr == 7:
                     pass
                 elif prognr == 8:
                     pass
                 elif prognr == 9:
-                    M01.run(chewie)
+                    M01.run()
                 prognr = prognr + 1
 
     #ikke la prognr bli større enn max eller mindre en min
