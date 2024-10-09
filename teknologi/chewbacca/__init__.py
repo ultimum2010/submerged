@@ -27,7 +27,7 @@ class Chewbacca:
     DRIVEBASE_MAX_TURNRATE = 360
     DRIVEBASE_MAX_TURN_ACCELERATION = 360
     
-    ACCELERATION = 500 #mm/s²
+    ACCELERATION = 100 #mm/s²
     MIN_DECELERATION_SPEED = 10 #mm/s
 
     PORT_RIGHT_MOTOR = Port.D
@@ -126,105 +126,120 @@ class Chewbacca:
     #     self.motor_R
     #     self.motor_L
 
-    #     reached_goal = False
-    #     self.__driveBase__.reset()
+    # gjør om kjørt avstand til hjul rotasjon i grader
+    def __mm_to_deg__(self, dist):
+        O = self.WHEEL_DIAMETER * math.pi
+        result = (dist / O) * 360
+        return result
 
-    #     w = self.WHEEL_DISTANSE / 2
-    #     self.motor_R.control
+    def drive_gyro_turn(self, speed, turn_radius, turn_angle, turn_right = True, start_speed = 0, end_speed = 0, stop_at_end = True, kP=1.0):
+        # svingens retning vises i turn_right variabelen og turn_angle gjøres alltid positiv
+        if turn_right & (turn_angle >= 0) :
+            turn_right = True
+            turn_angle = turn_angle * 1
 
-    #     #dette skal sjekke at det ikke er bedt om for høy fart
-    #     v1 = math.sqrt(target_distance * Chewbacca.ACCELERATION + 0.5*start_speed**2 + 0.5*end_speed**2)
-    #     print("v1 er regnet ut til :", v1)
-    #     if speed > v1:
-    #         speed = v1
+        elif turn_right & (turn_angle < 0) :
+            turn_right = False
+            turn_angle = turn_angle * -1
+
+        elif (turn_right == False) & (turn_angle >= 0) :
+            turn_right = False
+            turn_angle = turn_angle * 1
+
+        elif (turn_right == False)  & (turn_angle < 0) :
+             turn_right = True
+             turn_angle = turn_angle * -1
+
+        reached_goal = False
+        self.motor_R.reset_angle(0)
+        self.motor_L.reset_angle(0)
+
+        rygger = False
+        if speed < 0:
+            rygger = True
+            speed = -1 * speed
+
+        # regner ut hvor langt det ytteste hjulet skal kjøre
+        dist1 = (turn_angle / 360) * 2 * math.pi * (turn_radius + (Chewbacca.WHEEL_DISTANSE / 2))
+
+        # regner ut hvor langt det ytteste hjulet skal kjøre
+        dist2 = (turn_angle / 360) * 2 * math.pi * (turn_radius - (Chewbacca.WHEEL_DISTANSE / 2))
         
-    #     #failer programmet hvis end_speed er høyere enn max fart
-    #     if end_speed > v1:
-    #         for i in range(end_speed, 0, -1):
-    #             v1 = math.sqrt(target_distance * Chewbacca.ACCELERATION + 0.5*start_speed**2 + 0.5*i**2)
-    #             if i <= v1:
-    #                 break
 
-    #         raise Exception("end_speed er for høy. Sett end_speed lavere eller lik " + str(i) )
+
+        if dist1 < 0:
+            rygger = True
+            dist1 = -1 * dist1
+
+        if start_speed < 0:
+            start_speed = start_speed * -1 
+
+        if end_speed < 0:
+            end_speed = end_speed * -1 
         
-    #     #failer programmet hvis start_speed er høyere enn max fart
-    #     if start_speed > v1:
-    #         for i in range(start_speed, 0, -1):
-    #             v1 = math.sqrt(target_distance * Chewbacca.ACCELERATION + 0.5*i**2 + 0.5*end_speed**2)
-    #             if i <= v1:
-    #                 #suggested_start_speed = 
-    #                 break
+        # gjør om hasighetene fra millimeter / sekund til grader / sekund
+        start_speed = self.__mm_to_deg__(start_speed)
+        end_speed = self.__mm_to_deg__(end_speed)
+        speed = self.__mm_to_deg__(speed)
 
-    #         raise Exception("start_speed er for høy. Sett start_speed lavere eller lik " + str(i))
-
-    #     rygger = False
-    #     if speed < 0:
-    #         rygger = True
-    #         speed = -1 * speed
-
-    #     if target_distance < 0:
-    #         rygger = True
-    #         target_distance = -1 * target_distance
-
-    #     time_zone3 = (speed - end_speed) / Chewbacca.ACCELERATION
-    #     average_speed_zone3 = (speed + end_speed) / 2
-    #     dist_zone3 = average_speed_zone3 * time_zone3
-    #     dist_end_zone2 = target_distance - dist_zone3
-    #     acceleration_zone = 1
-
-    #     t0 = time.ticks_ms()
-    #     if not rygger:
-    #         #kjøres når du ikke rygger
-    #         while not reached_goal:
-
-    #             if acceleration_zone == 1:
-    #                 t1 = time.ticks_ms()
-    #                 t = (t1 - t0)/1000 #tid siden start i sekunder
-    #                 v = t * Chewbacca.ACCELERATION + start_speed
-    #                 if v >= speed:
-    #                     v = speed
-    #                     acceleration_zone = 2
-    #                 distance = self.__driveBase__.distance()
-
-    #             elif acceleration_zone == 2:
-    #                 v = speed
-    #                 distance = self.__driveBase__.distance()
-    #                 if distance >= dist_end_zone2:
-    #                     t2 = time.ticks_ms()
-    #                     acceleration_zone = 3
-
-    #             elif acceleration_zone == 3:
-    #                 t3 = time.ticks_ms()
-    #                 t = (t3 - t2)/1000 #tid siden start i sekunder 
-    #                 v = speed - Chewbacca.ACCELERATION * t
-    #                 if v <= Chewbacca.MIN_DECELERATION_SPEED:
-    #                     v = Chewbacca.MIN_DECELERATION_SPEED
-    #                 distance = self.__driveBase__.distance()
-
-    #             gyrovinkel = self.gyro.angle()
-    #             svinge_hastighet = (gyrovinkel - target_angle) * kP
-    #             self.__driveBase__.drive(v, svinge_hastighet)
-    #             self.__driveBase__.heading_control
-    #             print(acceleration_zone, distance, v)
-
-    #             reached_goal = distance >= target_distance
-
-    #     else:
-    #         #kjøres når du rygger
-    #         while not reached_goal:
-    #             gyrovinkel = self.gyro.angle()
-    #             svinge_hastighet = (gyrovinkel - target_angle) * kP
-    #             self.__driveBase__.drive(speed * -1, svinge_hastighet)
-
-    #             distance = self.__driveBase__.distance()
-    #             reached_goal = distance <= target_distance * -1
-
-    #     if stop_at_end == True:
-    #         self.__driveBase__.stop()
+        #dette skal sjekke at det ikke er bedt om for høy fart
+        v1 = math.sqrt(dist1 * self.__mm_to_deg__(Chewbacca.ACCELERATION) + 0.5*start_speed**2 + 0.5*end_speed**2)
+        print("v1 er regnet ut til :", v1)
+        if speed > v1:
+            speed = v1
         
-    #     #returner siste kjørte hastighet
-    #     return v
+        #setter end_speed ned hvis end_speed er høyere enn max fart
+        if end_speed > v1:
+            for i in range(end_speed, 0, -1):
+                v1 = math.sqrt(dist1 * self.__mm_to_deg__(Chewbacca.ACCELERATION) + 0.5*start_speed**2 + 0.5*i**2)
+                if i <= v1:
+                    end_speed = i
+                    break
+        
+        #setter start_speed ned hvis start_speed er høyere enn max fart
+        if start_speed > v1:
+            for i in range(start_speed, 0, -1):
+                v1 = math.sqrt(dist1 * self.__mm_to_deg__(Chewbacca.ACCELERATION) + 0.5*i**2 + 0.5*end_speed**2)
+                if i <= v1:
+                    start_speed = i
+                    break
 
+
+        dist_end_zone2 = Chewbacca.__get_dist_end_zone2__(speed, end_speed, dist1)
+        dist_end_zone2 = self.__mm_to_deg__(dist_end_zone2)
+        acceleration_zone = 1
+
+        t0 = time.ticks_ms()
+        t2 = 0
+        if not rygger:
+            #kjøres når du ikke rygger
+            while not reached_goal:
+                gyrovinkel = self.gyro.angle()
+                #svinge_hastighet = (gyrovinkel - target_angle) * kP
+
+                distance = self.motor_L.angle()
+
+                (v, t2, acceleration_zone) = Chewbacca.__gets_speed_during_acceleration__(start_speed, speed, dist_end_zone2, distance, t0, acceleration_zone, t2)
+
+                #self.__driveBase__.drive(v, svinge_hastighet)
+                self.motor_L.run(v)
+                self.motor_R.run(v * (dist2 / dist1))
+
+                reached_goal = abs(gyrovinkel) >= turn_angle
+                print(acceleration_zone, distance, v)
+
+
+        else:
+            #kjøres når du rygger
+            while not reached_goal:
+                pass
+
+        if stop_at_end == True:
+            self.__driveBase__.stop()
+            self.motor_L.hold()
+            self.motor_R.hold()        
+        #returner siste kjørte hastighet
+        return v
 
 
 
