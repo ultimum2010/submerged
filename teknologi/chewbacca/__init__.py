@@ -27,7 +27,7 @@ class Chewbacca:
     DRIVEBASE_MAX_TURNRATE = 360
     DRIVEBASE_MAX_TURN_ACCELERATION = 360
     
-    ACCELERATION = 100 #mm/s²
+    ACCELERATION = 500 #mm/s²
     MIN_DECELERATION_SPEED = 10 #mm/s
 
     PORT_RIGHT_MOTOR = Port.D
@@ -159,6 +159,10 @@ class Chewbacca:
              turn_angle = turn_angle * -1
 
         reached_goal = False
+
+        #stopper drivebase når den har kontroll over motorene før vinkler resetes
+        self.__driveBase__.stop()
+
         self.motor_R.reset_angle(0)
         self.motor_L.reset_angle(0)
 
@@ -169,7 +173,6 @@ class Chewbacca:
 
         # regner ut hvor langt det ytteste hjulet skal kjøre
         dist1 = (turn_angle / 360) * 2 * math.pi * (turn_radius + (Chewbacca.WHEEL_DISTANSE / 2))
-
         # regner ut hvor langt det ytteste hjulet skal kjøre
         dist2 = (turn_angle / 360) * 2 * math.pi * (turn_radius - (Chewbacca.WHEEL_DISTANSE / 2))
         
