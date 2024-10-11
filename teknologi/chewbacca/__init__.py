@@ -192,7 +192,7 @@ class Chewbacca:
 
         #dette skal sjekke at det ikke er bedt om for høy fart
         v1 = math.sqrt(dist1 * self.__mm_to_deg__(Chewbacca.ACCELERATION) + 0.5*start_speed**2 + 0.5*end_speed**2)
-        print("v1 er regnet ut til :", v1)
+        #print("v1 er regnet ut til :", v1)
         if speed > v1:
             speed = v1
         
@@ -234,7 +234,7 @@ class Chewbacca:
                 self.motor_R.run(v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, distance, v)
+                print(self.__deg_to_mm__(v))
 
 
         elif (not rygger) & (not turn_right):
@@ -252,7 +252,8 @@ class Chewbacca:
                 self.motor_L.run(v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, distance, v)
+                print(self.__deg_to_mm__(v))
+                
 
 
         elif rygger & turn_right:
@@ -270,7 +271,7 @@ class Chewbacca:
                 self.motor_R.run(-v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, -distance, v)
+               # print(acceleration_zone, -distance, v)
         
         elif rygger & (not turn_right):
             #kjøres når du kjører bak til venstre
@@ -287,7 +288,7 @@ class Chewbacca:
                 self.motor_L.run(-v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, distance, v)
+                #print(acceleration_zone, distance, v)
 
         if stop_at_end == True:
             self.__driveBase__.stop()
@@ -322,7 +323,7 @@ class Chewbacca:
 
         #dette skal sjekke at det ikke er bedt om for høy fart
         v1 = math.sqrt(target_distance * Chewbacca.ACCELERATION + 0.5*start_speed**2 + 0.5*end_speed**2)
-        print("v1 er regnet ut til :", v1)
+        #print("v1 er regnet ut til :", v1)
         if speed > v1:
             speed = v1
         
@@ -361,7 +362,7 @@ class Chewbacca:
                 self.__driveBase__.drive(v, svinge_hastighet)
 
                 reached_goal = distance >= target_distance
-                print(acceleration_zone, distance, v)
+                print(v)
 
 
         else:
