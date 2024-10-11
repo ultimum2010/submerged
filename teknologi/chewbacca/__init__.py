@@ -131,6 +131,12 @@ class Chewbacca:
         O = self.WHEEL_DIAMETER * math.pi
         result = (dist / O) * 360
         return result
+    
+    # gjør om hjul rotasjon i grader til kjørt avstand 
+    def __deg_to_mm__(self, degrees):
+        O = self.WHEEL_DIAMETER * math.pi
+        dist = O * degrees / 360
+        return dist
 
     def drive_gyro_turn(self, speed, turn_radius, turn_angle, turn_right = True, start_speed = 0, end_speed = 0, stop_at_end = True, kP=1.0):
         gyrovinkel0 = self.gyro.angle()
@@ -288,6 +294,7 @@ class Chewbacca:
             self.motor_L.hold()
             self.motor_R.hold()        
         #returner siste kjørte hastighet
+        v = self.__deg_to_mm__(v)
         return v
 
 
