@@ -133,6 +133,8 @@ class Chewbacca:
         return result
 
     def drive_gyro_turn(self, speed, turn_radius, turn_angle, turn_right = True, start_speed = 0, end_speed = 0, stop_at_end = True, kP=1.0):
+        gyrovinkel0 = self.gyro.angle()
+        
         # svingens retning vises i turn_right variabelen og turn_angle gjøres alltid positiv
         if turn_right & (turn_angle >= 0) :
             turn_right = True
@@ -214,7 +216,7 @@ class Chewbacca:
         if (not rygger) & turn_right:
             #kjøres når du kjører fram til høyre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_L.angle()
@@ -232,7 +234,7 @@ class Chewbacca:
         elif (not rygger) & (not turn_right):
             #kjøres når du kjører fram til venstre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_R.angle()
@@ -250,7 +252,7 @@ class Chewbacca:
         elif rygger & turn_right:
             #kjøres når du kjører bak til høyre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_L.angle()
@@ -267,7 +269,7 @@ class Chewbacca:
         elif rygger & (not turn_right):
             #kjøres når du kjører bak til venstre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_R.angle()
