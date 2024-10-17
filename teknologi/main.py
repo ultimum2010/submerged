@@ -2,16 +2,11 @@
 from chewbacca import Chewbacca
 from pybricks.tools import wait
 from pybricks.parameters import Button
-import M12_13
 
-import M14
-import M12_13
-import M07
-import M01
-import M04
-import M15
-import M08
-import flytting
+import løype0
+import løype1
+import test1
+
 
 chewie = Chewbacca()
 
@@ -26,29 +21,29 @@ while True:
 
     #oppdater skjerm
     if prognr == -2:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/farge.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/farge.png")
     elif prognr == -1:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/gyro.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/gyro.png")
     elif prognr == 0:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/0.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/0.png")
     elif prognr == 1:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/1.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/1.png")
     elif prognr == 2:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/2.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/2.png")
     elif prognr == 3:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/3.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/3.png")
     elif prognr == 4:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/4.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/4.png")
     elif prognr == 5:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/5.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/5.png")
     elif prognr == 6:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/6.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/6.png")
     elif prognr == 7:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/7.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/7.png")
     elif prognr == 8:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/8.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/8.png")
     elif prognr == 9:
-        chewie.brain.screen.load_image("/home/robot/RobotProgram/chewbacca/menybilder/9.png")
+        chewie.brain.screen.load_image("/home/robot/teknologi/chewbacca/menybilder/9.png")
 
 
     #les knapper
@@ -85,25 +80,25 @@ while True:
                 elif prognr == -1:
                     chewie.gyro_kalibrer()
                 elif prognr == 0:
-                    M07.run()
+                    løype0.run()
                 elif prognr == 1:
-                    M15.run()
+                    løype1.run()
                 elif prognr == 2:
-                    flytting.run()
+                    test1.run()
                 elif prognr == 3:
-                    M08.run()
+                    pass
                 elif prognr == 4:
-                    M14.run()
+                    pass
                 elif prognr == 5:
-                    M12_13.run()
+                    pass
                 elif prognr == 6:
-                    M04.run()
+                    pass
                 elif prognr == 7:
                     pass
                 elif prognr == 8:
                     pass
                 elif prognr == 9:
-                    M01.run()
+                    pass
                 prognr = prognr + 1
 
     #ikke la prognr bli større enn max eller mindre en min
