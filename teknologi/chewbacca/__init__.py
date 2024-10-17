@@ -27,7 +27,7 @@ class Chewbacca:
     DRIVEBASE_MAX_TURNRATE = 360
     DRIVEBASE_MAX_TURN_ACCELERATION = 360
     
-    ACCELERATION = 100 #mm/s²
+    ACCELERATION = 500 #mm/s²
     MIN_DECELERATION_SPEED = 10 #mm/s
 
     PORT_RIGHT_MOTOR = Port.D
@@ -131,8 +131,16 @@ class Chewbacca:
         O = self.WHEEL_DIAMETER * math.pi
         result = (dist / O) * 360
         return result
+    
+    # gjør om hjul rotasjon i grader til kjørt avstand 
+    def __deg_to_mm__(self, degrees):
+        O = self.WHEEL_DIAMETER * math.pi
+        dist = O * degrees / 360
+        return dist
 
     def drive_gyro_turn(self, speed, turn_radius, turn_angle, turn_right = True, start_speed = 0, end_speed = 0, stop_at_end = True, kP=1.0):
+        gyrovinkel0 = self.gyro.angle()
+        
         # svingens retning vises i turn_right variabelen og turn_angle gjøres alltid positiv
         if turn_right & (turn_angle >= 0) :
             turn_right = True
@@ -151,6 +159,10 @@ class Chewbacca:
              turn_angle = turn_angle * -1
 
         reached_goal = False
+
+        #stopper drivebase når den har kontroll over motorene før vinkler resetes
+        self.__driveBase__.stop()
+
         self.motor_R.reset_angle(0)
         self.motor_L.reset_angle(0)
 
@@ -161,7 +173,6 @@ class Chewbacca:
 
         # regner ut hvor langt det ytteste hjulet skal kjøre
         dist1 = (turn_angle / 360) * 2 * math.pi * (turn_radius + (Chewbacca.WHEEL_DISTANSE / 2))
-
         # regner ut hvor langt det ytteste hjulet skal kjøre
         dist2 = (turn_angle / 360) * 2 * math.pi * (turn_radius - (Chewbacca.WHEEL_DISTANSE / 2))
         
@@ -184,7 +195,7 @@ class Chewbacca:
 
         #dette skal sjekke at det ikke er bedt om for høy fart
         v1 = math.sqrt(dist1 * self.__mm_to_deg__(Chewbacca.ACCELERATION) + 0.5*start_speed**2 + 0.5*end_speed**2)
-        print("v1 er regnet ut til :", v1)
+        #print("v1 er regnet ut til :", v1)
         if speed > v1:
             speed = v1
         
@@ -214,7 +225,7 @@ class Chewbacca:
         if (not rygger) & turn_right:
             #kjøres når du kjører fram til høyre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_L.angle()
@@ -226,13 +237,13 @@ class Chewbacca:
                 self.motor_R.run(v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, distance, v)
+                print(self.__deg_to_mm__(v))
 
 
         elif (not rygger) & (not turn_right):
             #kjøres når du kjører fram til venstre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_R.angle()
@@ -244,13 +255,14 @@ class Chewbacca:
                 self.motor_L.run(v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, distance, v)
+                print(self.__deg_to_mm__(v))
+                
 
 
         elif rygger & turn_right:
             #kjøres når du kjører bak til høyre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_L.angle()
@@ -262,12 +274,12 @@ class Chewbacca:
                 self.motor_R.run(-v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, -distance, v)
+               # print(acceleration_zone, -distance, v)
         
         elif rygger & (not turn_right):
             #kjøres når du kjører bak til venstre
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = self.gyro.angle() - gyrovinkel0
                 #svinge_hastighet = (gyrovinkel - target_angle) * kP
 
                 distance = self.motor_R.angle()
@@ -279,13 +291,14 @@ class Chewbacca:
                 self.motor_L.run(-v * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(acceleration_zone, distance, v)
+                #print(acceleration_zone, distance, v)
 
         if stop_at_end == True:
             self.__driveBase__.stop()
             self.motor_L.hold()
             self.motor_R.hold()        
         #returner siste kjørte hastighet
+        v = self.__deg_to_mm__(v)
         return v
 
 
@@ -313,7 +326,7 @@ class Chewbacca:
 
         #dette skal sjekke at det ikke er bedt om for høy fart
         v1 = math.sqrt(target_distance * Chewbacca.ACCELERATION + 0.5*start_speed**2 + 0.5*end_speed**2)
-        print("v1 er regnet ut til :", v1)
+        #print("v1 er regnet ut til :", v1)
         if speed > v1:
             speed = v1
         
@@ -352,7 +365,7 @@ class Chewbacca:
                 self.__driveBase__.drive(v, svinge_hastighet)
 
                 reached_goal = distance >= target_distance
-                print(acceleration_zone, distance, v)
+                print(v)
 
 
         else:
