@@ -3,9 +3,8 @@ from chewbacca import Chewbacca
 from pybricks.tools import wait
 from pybricks.parameters import Button
 
-import løype0
-import løype1
-import test1
+import løype0 
+import løype1 
 import m14
 
 chewie = Chewbacca()
@@ -84,7 +83,7 @@ while True:
                 elif prognr == 1:
                     løype1.run()
                 elif prognr == 2:
-                    test1.run()
+                    pass
                 elif prognr == 3:
                     m14.run()
                 elif prognr == 4:
