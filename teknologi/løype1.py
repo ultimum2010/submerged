@@ -16,7 +16,7 @@ def run():
                                target_distance= -700, target_angle= 0,
                                stop_at_end= True)
     
-    # v = chewie.drive_gyro_turn(start_speed= v, speed= slow, end_speed= slow, 
+    # v = chewie.drive_gyro_turstart_speed= v, speed= slow, end_speed= slow, 
     #                            turn_radius= 0, turn_angle= -160,
     #                            stop_at_end= False)
     

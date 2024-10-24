@@ -14,4 +14,3 @@ def run():
     #che.drive_gyro_dist(100, -60, 490)
     #che.work_motor_L(600, -1300)
     
-run()
