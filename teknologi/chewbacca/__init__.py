@@ -356,7 +356,7 @@ class Chewbacca:
         if not rygger:
             #kjøres når du ikke rygger
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = -self.gyro.angle()
                 svinge_hastighet = abs(gyrovinkel - target_angle * kP)
 
                 distance = self.trippteller() - distance0
@@ -372,22 +372,26 @@ class Chewbacca:
 
                 v_deg = self.__mm_to_deg__(v)
                 
-                if (gyrovinkel < target_angle):
+                if (gyrovinkel > target_angle):
                     #Right turn
                     self.motor_R.run(v_deg)
                     self.motor_L.run(v_deg * (r2 / r1))
-                elif (gyrovinkel > target_angle):
+                    actual_speed = self.__deg_to_mm__(self.motor_L.speed()) #For telemetry
+
+                elif (gyrovinkel < target_angle):
                     #Left turn
                     self.motor_R.run(v_deg * (r2 / r1))
                     self.motor_L.run(v_deg)
+                    actual_speed = self.__deg_to_mm__(self.motor_R.speed()) #For telemetry
                 else:
                     #Straight
                     self.motor_R.run(v_deg)
                     self.motor_L.run(v_deg)
+                    actual_speed = self.__deg_to_mm__(self.motor_R.speed()) #For telemetry
 
                 reached_goal = distance >= target_distance
 
-                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "0"
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(actual_speed) + ";" + "0"
                 telemetry = telemetry.replace(".",",")
                 print(telemetry)
 
@@ -395,34 +399,42 @@ class Chewbacca:
         else:
             #kjøres når du rygger
             while not reached_goal:
-                gyrovinkel = self.gyro.angle()
+                gyrovinkel = -self.gyro.angle()
                 svinge_hastighet = abs(gyrovinkel - target_angle * kP)
 
                 distance = self.trippteller() - distance0
 
                 (v, t2, acceleration_zone) = Chewbacca.__gets_speed_during_acceleration__(start_speed, speed, end_speed, dist_end_zone2, -distance, target_distance, t0, acceleration_zone, t2)
 
-                r1 = _180_DIV_PI * v / svinge_hastighet + self.WHEEL_DISTANSE / 2  #outer turn radius
-                r2 = _180_DIV_PI * v / svinge_hastighet - self.WHEEL_DISTANSE / 2  #inner turn radius
+                if svinge_hastighet != 0 :
+                    r1 = _180_DIV_PI * v / svinge_hastighet + self.WHEEL_DISTANSE / 2  #outer turn radius
+                    r2 = _180_DIV_PI * v / svinge_hastighet - self.WHEEL_DISTANSE / 2  #inner turn radius
+                else:
+                    r1 = 1
+                    r2 = 1
+
 
                 v_deg = self.__mm_to_deg__(v)
                 
-                if (gyrovinkel > target_angle):
+                if (gyrovinkel < target_angle):
                     #Right turn
-                    self.motor_R.run(v_deg)
-                    self.motor_L.run(v_deg * (r2 / r1))
-                elif (gyrovinkel < target_angle):
+                    self.motor_R.run(-v_deg)
+                    self.motor_L.run(-v_deg * (r2 / r1))
+                    actual_speed = self.__deg_to_mm__(self.motor_L.speed()) #For telemetry
+                elif (gyrovinkel > target_angle):
                     #Left turn
-                    self.motor_R.run(v_deg * (r2 / r1))
-                    self.motor_L.run(v_deg)
+                    self.motor_R.run(-v_deg * (r2 / r1))
+                    self.motor_L.run(-v_deg)
+                    actual_speed = self.__deg_to_mm__(self.motor_R.speed()) #For telemetry
                 else:
                     #Straight
-                    self.motor_R.run(v_deg)
-                    self.motor_L.run(v_deg)
+                    self.motor_R.run(-v_deg)
+                    self.motor_L.run(-v_deg)
+                    actual_speed = self.__deg_to_mm__(self.motor_R.speed()) #For telemetry
 
                 reached_goal = distance <= target_distance * -1
 
-                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "0"
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(actual_speed) + ";" + "0"
                 telemetry = telemetry.replace(".",",")
                 print(telemetry)
 
@@ -431,7 +443,7 @@ class Chewbacca:
             self.motor_L.hold()
             self.motor_R.hold()
 
-        telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "250"
+        telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(actual_speed) + ";" + "250"
         telemetry = telemetry.replace(".",",")
         print(telemetry)
 
