@@ -7,7 +7,7 @@
 |Generalprøve||||
 ||Forskning - Finne eksisterende løsninger|||
 ||Forskning - Finne hvor stort er problemet|||
-||Forskning - Hvordan låsen skal fungere?||Besvare spørsmål fra Isak|
+||Forskning - Hvordan låsen skal fungere?||Besvare spørsmål fra Isak og se på en krabbeteine som vi kan jobbe ut fra|
 ||Forskning - Kontakte material-ekspert|||
 ||Forskning - Fullføre modell i Minecraft|||
 ||Forskning - Lage modell for 3D-printer|||
