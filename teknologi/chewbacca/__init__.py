@@ -55,7 +55,7 @@ class Chewbacca:
         #self.motor_L.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
         #self.motor_R.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
         #self.__driveBase__.settings(Chewbacca.DRIVEBASE_MAX_SPEED, Chewbacca.DRIVEBASE_MAX_ACCELERATION, Chewbacca.DRIVEBASE_MAX_TURNRATE, Chewbacca.DRIVEBASE_MAX_TURN_ACCELERATION)
-
+        print("Timecode;Set speed;Actual speed;End of method mark")
 
     def trippteller(self):
         Trippteller = self.motor_R + self.motor_L / 2
@@ -209,7 +209,10 @@ class Chewbacca:
                 self.motor_R.run(v_deg * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                print(self.__deg_to_mm__(v))
+
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_L.speed())) + ";" + "0"
+                telemetry = telemetry.replace(".",",")
+                print(telemetry)
 
 
         elif (not rygger) & (not turn_right):
@@ -227,7 +230,9 @@ class Chewbacca:
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
     
-                print(self.__deg_to_mm__(v))
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "0"
+                telemetry = telemetry.replace(".",",")
+                print(telemetry)
                 
 
 
@@ -245,7 +250,10 @@ class Chewbacca:
                 self.motor_R.run(-v_deg * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-               # print(acceleration_zone, -distance, v)
+
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_L.speed())) + ";" + "0"
+                telemetry = telemetry.replace(".",",")
+                print(telemetry)                
         
         elif rygger & (not turn_right):
             #kjøres når du kjører bak til venstre
@@ -261,7 +269,10 @@ class Chewbacca:
                 self.motor_L.run(-v_deg * (dist2 / dist1))
 
                 reached_goal = abs(gyrovinkel) >= turn_angle
-                #print(acceleration_zone, distance, v)
+
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "0"
+                telemetry = telemetry.replace(".",",")
+                print(telemetry)
 
         if stop_at_end == True:
             self.__driveBase__.stop()
@@ -363,7 +374,10 @@ class Chewbacca:
                     self.motor_L.run(v_deg)
 
                 reached_goal = distance >= target_distance
-                print(v)
+
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "0"
+                telemetry = telemetry.replace(".",",")
+                print(telemetry)
 
 
         else:
@@ -395,12 +409,20 @@ class Chewbacca:
                     self.motor_L.run(v_deg)
 
                 reached_goal = distance <= target_distance * -1
-                #print(acceleration_zone, distance, v)
+
+                telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "0"
+                telemetry = telemetry.replace(".",",")
+                print(telemetry)
 
         if stop_at_end == True:
             self.__driveBase__.stop()
             self.motor_L.hold()
             self.motor_R.hold()
+
+        telemetry = str(time.ticks_ms()) + ";" + str(v) + ";" + str(self.__deg_to_mm__(self.motor_R.speed())) + ";" + "250"
+        telemetry = telemetry.replace(".",",")
+        print(telemetry)
+
         #returner siste kjørte hastighet
         return v
 
