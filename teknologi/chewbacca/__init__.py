@@ -58,7 +58,8 @@ class Chewbacca:
         print("Timecode;Set speed;Actual speed;End of method mark")
 
     def trippteller(self):
-        Trippteller = self.motor_R + self.motor_L / 2
+        Trippteller = (self.motor_R.angle() + self.motor_L.angle()) / 2
+        Trippteller = self.__deg_to_mm__(Trippteller)
         return Trippteller
 
 
@@ -81,7 +82,7 @@ class Chewbacca:
         dist_end_zone2 = target_distance - dist_zone3
         return dist_end_zone2
 
-    def __gets_speed_during_acceleration__(start_speed, speed, dist_end_zone2, distance, t0, acceleration_zone, t2):
+    def __gets_speed_during_acceleration__(start_speed, speed, end_speed, dist_end_zone2, distance, target_distance, t0, acceleration_zone, t2):
         if acceleration_zone == 1:
             t1 = time.ticks_ms()
             t = (t1 - t0)/1000 #tid siden start i sekunder
@@ -100,8 +101,19 @@ class Chewbacca:
             t3 = time.ticks_ms()
             t = (t3 - t2)/1000 #tid siden start i sekunder 
             v = speed - Chewbacca.ACCELERATION * t
+            
+            remaining_distance = target_distance - distance
+            if remaining_distance < 0:
+                v = 0
+            else:
+                v = math.sqrt(2 * Chewbacca.ACCELERATION * remaining_distance + end_speed ** 2)
+
+            if v < end_speed:
+                v = end_speed
+
             if v <= Chewbacca.MIN_DECELERATION_SPEED:
                 v = Chewbacca.MIN_DECELERATION_SPEED
+
         return (v, t2, acceleration_zone)
 
 
