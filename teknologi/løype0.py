@@ -28,7 +28,9 @@ def run():
 
     chewie.work_motor_L(speed= 500, target_rotation= 1330)
 
-
+    v = chewie.drive_gyro_turn(start_speed= 0, speed= 100, end_speed= 0, 
+                               turn_radius= 180, turn_angle= -180,
+                               stop_at_end= True)
 
 
     # v = chewie.drive_gyro_dist(start_speed= v, speed= 200, end_speed= 0,
