@@ -506,7 +506,9 @@ class Chewbacca:
 
     
     def press_robot_frem(self, fart=45, kraft_L=30, kraft_R=30):
-        
+        self.motor_L.stop()
+        self.motor_R.stop()
+
         self.forrige_limit = self.motor_L.control.limits()
         self.motor_L.control.limits(self.forrige_limit[0], self.forrige_limit[1], kraft_L)
         self.motor_R.control.limits(self.forrige_limit[0], self.forrige_limit[1], kraft_R)
