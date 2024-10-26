@@ -9,7 +9,10 @@
 ## Modell
 - Lage notteine med en lås
 - Gjøre ene åpningen til en dør
+   - feste en lås i toppen av teinen. og fest den i en løkke så kommer fra en luke.
+   - luken har en vekt på som gjør at den detter ned og låsen låser seg opp
 - Fjerne ene inngangen og gjøre om til røminingsluke
+- Mekanisk lås
 
 ## Materialet må være mer miljøvennlig
 - Må sende mail til noen nye
