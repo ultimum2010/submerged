@@ -19,7 +19,7 @@
 
 # Dagens løsninger
 - Allerede litt tenkt på
-- Krabbeteiner har små rømningshull til mindre dyr med 15 cm stor sylinder
+- Krabbeteiner må ha små rømningshull til mindre dyr med 15 cm stor sylinder
 - Finnes flere forskjellige typer krabbeteiner med forskjellige løsninger
 - Hummerluka som står åpen på gitt tidspunkt i året fordi det ikke er lov med hummerfiske
 - Fluktluke i tillegg til rømningshull
