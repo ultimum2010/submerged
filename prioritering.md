@@ -14,6 +14,7 @@
 ||Forskning - Presentere løsning for Kjetil|||
 ||Forskning - Presentere løsning for Gro|||
 ||Forskning - Vise hvordan løsningen kan forbedre problemet|||
+||Forskning - Prosess vi brukte i forskning|||
 ||Teknologi - Tegne oppdragsstrategi på PC|||
 ||Teknologi - Vise koden til systemutvikler|||
 ||Teknologi - Vise hvordan vi har testet roboten|||
