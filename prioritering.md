@@ -1,7 +1,8 @@
-|Må gjøres|Viktig|Kan utsettes|Hvordan?|Når?|Ferdig?|Veileder|
+|Må gjøres|Viktig|Kan utsettes|Hvordan får vi gjort den?|Når?|Ferdig?|Veileder|
 |--|--|--|--|--|--|--|
 |Forskningspresentasjon||||
 |Teknologipresentasjon||||
+|PIT i turnering||||||Kanskje
 |Øve på robotkamp||||
 |Levere rapport||Kopiere det vi skrev fra GitHub og legge inn i rapport|Siste uka||Ja
 |Generalprøve||||
