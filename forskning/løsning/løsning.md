@@ -18,8 +18,11 @@
 - Må sende mail til noen nye
 
 # Dagens løsninger
+- [Krabbeteine under vann - Undervannsfilming](https://www.youtube.com/watch?v=u_tdc0Wkk5U)
 - Allerede litt tenkt på
 - Krabbeteiner må ha små rømningshull til mindre dyr med 15 cm stor sylinder
+  - [Fiskeridirektoratet](https://www.youtube.com/watch?v=l5e2EvyRMOM)
+  - [Fiskeridirektoratet regler](https://www.fiskeridir.no/Fritidsfiske/Artar/Hummarfiske/Korleis-skal-hummarteina-vere)
 - Finnes flere forskjellige typer krabbeteiner med forskjellige løsninger
 - Hummerluka som står åpen på gitt tidspunkt i året fordi det ikke er lov med hummerfiske
 - Fluktluke i tillegg til rømningshull
