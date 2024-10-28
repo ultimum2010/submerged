@@ -1,4 +1,4 @@
-|Må gjøres|Viktig|Kan utsettes|Hvordan?|Når?|
+|Må gjøres|Viktig|Kan utsettes|Hvordan?|Når?|Ferdig?|Veileder|
 |--|--|--|--|--|
 |Forskningspresentasjon||||
 |Teknologipresentasjon||||
