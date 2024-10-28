@@ -10,7 +10,7 @@ Hvordan har vi involvert alle på laget
 
 ## Løsning Sivert
 - Forklare hvordan låsen fungerer
-- miljøevennlige materialerg
+- miljøevennlige materialer
 - vise modell
 
 ## Deling av løsning Wilja
