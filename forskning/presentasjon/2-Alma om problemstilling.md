@@ -1,8 +1,4 @@
 # Problemstilling
-Hvordan kan man fjerne gamle garn og krabbeteiner og hindre at havdyr setter seg fast? I tilegg forurenser krabbeteiner og garn havet på grunn av materialet det er laget av.
-Hvordan kan vi unngå at krabber og sjødyr sette seg fast i krabbeteiner som ikke blir brukt til fiske? 
-
-# Mer konkret problemstilling
 ## Hvordan kan man fjerne gamle krabbeteiner og hindre at det øker i antall tapte utstyr på havbunnen?
 - Dyrene setter seg fast i teinene og garnene som gjør at vi mister ressurser og dyrene dør.
 - De døde dyrene blir da om til agnet til annet liv i havet.
@@ -24,5 +20,3 @@ Vi kan enten velge å jobbe med å fjerne de gamle krabbeteinene og garnene som 
    - ha regler og strengere krav
    - hvordan kan man vite det i f.eks. Follafjorden at man må ha fiskekort
  - Kan prisøkning på krabbeteiner og garn gjør slik at det blir mindre økning i spøkelsesfiske?
-
-# Eksperiment

@@ -1,5 +1,5 @@
 # Løsning
-## Letter for krabber å komme seg ut av notteteiner med en lås
+## Lettere for krabber å komme seg ut av notteteiner med en lås
 - Større åpning i notteiner
 - Skotteiner har rømningsluke for å slippe ut krabber og hummer etter 3 måneder fordi bommulstråden som holder luken åpen går i oppløsning 
 - Mer kontroll på hvor lenge det skal gå før krabbene kan komme seg ut igjen
