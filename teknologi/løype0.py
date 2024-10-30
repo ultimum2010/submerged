@@ -83,15 +83,34 @@ def run():
                                 stop_at_end= True,)
     
     v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,
-                               target_distance= 112, target_angle= -54,
+                               target_distance= 117, target_angle= -54  ,
                                stop_at_end= True)
     
 
     chewie.work_motor_L(speed= 500, target_rotation= 500)
+    chewie.work_motor_L(speed= 500, target_rotation= -550)
 
-    # v = chewie.drive_gyro_turn(start_speed= v, speed= -100, end_speed= 0, 
-    #                             turn_radius= 300, turn_angle= -52,
-    #                             stop_at_end= False,)
+    v = chewie.drive_gyro_turn(start_speed= v, speed= -100, end_speed= 0, 
+                                turn_radius= 300, turn_angle= -32,
+                                stop_at_end= True,)
+    
+    v = chewie.drive_gyro_turn(start_speed= v, speed= 70, end_speed= 0, 
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= 40,
+                                stop_at_end= False,)
+
+    v = chewie.drive_gyro_turn(start_speed= v, speed= 70, end_speed= 0, 
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= 40,
+                                stop_at_end= True,)
+
+    chewie.work_motor_L(speed= 500, target_rotation= -1050)
+
+    v = chewie.drive_gyro_turn(start_speed= v, speed= -70, end_speed= 0, 
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -6,
+                                stop_at_end= False,)
+
+    v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,
+                               target_distance= 123, target_angle= 90  ,
+                               stop_at_end= True)
 
     # v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,
     #                            target_distance= -70 , target_angle= -50,
