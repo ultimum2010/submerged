@@ -52,6 +52,7 @@ class Chewbacca:
         # self.color_R = ColorSensor(self.RIGHT_COLOR_SENSOR)
         # self.color_L = ColorSensor(self.LEFT_COLOR_SENSOR)
         self.gyro = GyroSensor(self.GYRO_SENSOR)
+        self.gyro_correction = 0
         #self.motor_L.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
         #self.motor_R.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
         #self.__driveBase__.settings(Chewbacca.DRIVEBASE_MAX_SPEED, Chewbacca.DRIVEBASE_MAX_ACCELERATION, Chewbacca.DRIVEBASE_MAX_TURNRATE, Chewbacca.DRIVEBASE_MAX_TURN_ACCELERATION)
@@ -62,6 +63,12 @@ class Chewbacca:
         Trippteller = self.__deg_to_mm__(Trippteller)
         return Trippteller
 
+
+    def set_known_heading(self, heading):
+        self.brain.light.on(Color.ORANGE)
+        time.sleep(0.1)
+        self.gyro_correction = -self.gyro.angle() - heading
+        self.brain.light.on(Color.GREEN)
 
 
     def p_ctrl(self, target, current, kP):
@@ -356,7 +363,7 @@ class Chewbacca:
         if not rygger:
             #kjøres når du ikke rygger
             while not reached_goal:
-                gyrovinkel = -self.gyro.angle()
+                gyrovinkel = -(self.gyro.angle() - self.gyro_correction)
                 svinge_hastighet = abs(gyrovinkel - target_angle * kP)
 
                 distance = self.trippteller() - distance0
@@ -399,7 +406,7 @@ class Chewbacca:
         else:
             #kjøres når du rygger
             while not reached_goal:
-                gyrovinkel = -self.gyro.angle()
+                gyrovinkel = -(self.gyro.angle() - self.gyro_correction)
                 svinge_hastighet = abs(gyrovinkel - target_angle * kP)
 
                 distance = self.trippteller() - distance0
@@ -506,7 +513,9 @@ class Chewbacca:
 
     
     def press_robot_frem(self, fart=45, kraft_L=30, kraft_R=30):
-        
+        self.motor_L.stop()
+        self.motor_R.stop()
+
         self.forrige_limit = self.motor_L.control.limits()
         self.motor_L.control.limits(self.forrige_limit[0], self.forrige_limit[1], kraft_L)
         self.motor_R.control.limits(self.forrige_limit[0], self.forrige_limit[1], kraft_R)
