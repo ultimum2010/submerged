@@ -24,8 +24,8 @@ class Chewbacca:
     WHEEL_MAX_ACCELERATION = 400   #grader pr sekund   pr  sekund
     DRIVEBASE_MAX_SPEED = 620
     DRIVEBASE_MAX_ACCELERATION = 40
-    DRIVEBASE_MAX_TURNRATE = 360
-    DRIVEBASE_MAX_TURN_ACCELERATION = 360
+    DRIVEBASE_MAX_TURNRATE = 120
+    DRIVEBASE_MAX_TURN_ACCELERATION = 120
     
     ACCELERATION = 500 #mm/s²
     MIN_DECELERATION_SPEED = 50 #mm/s
@@ -55,7 +55,7 @@ class Chewbacca:
         self.gyro_correction = 0
         #self.motor_L.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
         #self.motor_R.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
-        #self.__driveBase__.settings(Chewbacca.DRIVEBASE_MAX_SPEED, Chewbacca.DRIVEBASE_MAX_ACCELERATION, Chewbacca.DRIVEBASE_MAX_TURNRATE, Chewbacca.DRIVEBASE_MAX_TURN_ACCELERATION)
+        self.__driveBase__.settings(Chewbacca.DRIVEBASE_MAX_SPEED, Chewbacca.DRIVEBASE_MAX_ACCELERATION, Chewbacca.DRIVEBASE_MAX_TURNRATE, Chewbacca.DRIVEBASE_MAX_TURN_ACCELERATION)
         print("Timecode;Set speed;Actual speed;End of method mark")
 
     def trippteller(self):
