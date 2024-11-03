@@ -5,6 +5,7 @@ from pybricks.parameters import Button
 
 import løype0 
 import løype1 
+import m08_habitat
 import m14
 import m15
 
@@ -84,7 +85,7 @@ while True:
                 elif prognr == 1:
                     løype1.run()
                 elif prognr == 2:
-                    pass
+                    m08_habitat.run()
                 elif prognr == 3:
                     m14.run()
                 elif prognr == 4:
