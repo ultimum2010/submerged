@@ -363,8 +363,8 @@ class Chewbacca:
         if not rygger:
             #kjøres når du ikke rygger
             while not reached_goal:
-                gyrovinkel = -(self.gyro.angle() - self.gyro_correction)
-                svinge_hastighet = abs(gyrovinkel - target_angle * kP)
+                gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+                svinge_hastighet = abs(gyrovinkel - target_angle) * kP
 
                 distance = self.trippteller() - distance0
 
@@ -406,8 +406,9 @@ class Chewbacca:
         else:
             #kjøres når du rygger
             while not reached_goal:
-                gyrovinkel = -(self.gyro.angle() - self.gyro_correction)
-                svinge_hastighet = abs(gyrovinkel - target_angle * kP)
+                gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+                svinge_hastighet = abs(gyrovinkel - target_angle) * kP
+
 
                 distance = self.trippteller() - distance0
 
