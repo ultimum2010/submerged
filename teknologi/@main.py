@@ -99,7 +99,7 @@ while True:
                 elif prognr == 8:
                     pass
                 elif prognr == 9:
-                    pass
+                    chewie.vask_hjul()
                 prognr = prognr + 1
 
     #ikke la prognr bli større enn max eller mindre en min

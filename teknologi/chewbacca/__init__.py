@@ -530,3 +530,43 @@ class Chewbacca:
         self.motor_R.control.limits(self.forrige_limit[0], self.forrige_limit[1], self.forrige_limit[2])
 
 
+    def press_r_arbeid_opp(self, fart=45, kraft=30):
+        self.__motor_work_R__.stop()
+
+        self.forrige_work_limit = self.__motor_work_R__.control.limits()
+        self.__motor_work_R__.control.limits(self.forrige_work_limit[0], self.forrige_work_limit[1], kraft)
+
+        self.__motor_work_R__.run(fart) #grader pr sekund
+
+    def press_r_arbeid_ferdig(self):
+        self.__motor_work_R__.stop()
+        self.__motor_work_R__.control.limits(self.forrige_work_limit[0], self.forrige_work_limit[1], self.forrige_work_limit[2])
+
+
+    def vask_hjul(self, fart=180 ):
+        self.motor_L.run(fart) #grader pr sekund
+        self.motor_R.run(fart) #grader pr sekund
+    
+        #les knapper
+        knapp_er_trykt = False
+        while not knapp_er_trykt:
+            knapp_verdi = self.brain.buttons.pressed() 
+
+            #er alle knapper ute
+            if knapp_verdi:
+                knapp_er_trykt = True
+
+        self.motor_L.stop()
+        self.motor_R.stop()
+
+    def vri_til_retning(self, retning):
+        gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+        feil =  gyrovinkel - retning
+        
+        while abs(feil) > 2:
+            self.__driveBase__.turn(-feil)
+            
+            gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+            feil = gyrovinkel - retning
+
+        self.__driveBase__.stop()
