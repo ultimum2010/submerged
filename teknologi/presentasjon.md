@@ -23,7 +23,7 @@ Kodegjennomgang med Henning **Sivert**
   - Sivert modifiserte samlebånd for å unngå at ringen setter seg fast på kanten av verktøyet
      - lite hull som ble dekket til
      - pinner dekker hull som prøvene satt seg fast i
-- Hjalp hverandre med programmering
+- Hjalp hverandre med programmering 
   - Alle har vært med og programmert
   - Wilja og Alma jobbet i lag på et oppdrag og støtte fra Sivert
   - Kasper jobbet med M15
@@ -36,11 +36,11 @@ Kodegjennomgang med Henning **Sivert**
 # Skape
 Forklare program **Sivert**
 - Noen gjenbrukt grunnprogrammer
-Forklare oppdragsprogram 
-Forklare verktøy
+- Forklare sensor
+Forklare oppdragsprogram **Wilja**
+Forklare verktøy **Kasper**
 - Noen gjenbrukt verktøy
-- Samlebånd **Kasper**
-Forklare sensor
+- Samlebånd 
 
 # Utvikle 
 Hva har vi slitt med? **Alma**
