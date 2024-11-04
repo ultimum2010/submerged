@@ -33,7 +33,7 @@
                 Om det er veldig tynt må det være sterk nok
 
 # Kan ha en metalltråd istedenfor en lås
-Når materialet skal være nedbrytbar vil de løsne selv
+    Når materialet skal være nedbrytbar vil de løsne selv
 
 # Magnesium
     Bruke magnesium
