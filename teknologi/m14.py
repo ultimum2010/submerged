@@ -6,16 +6,17 @@ def run():
     global che
     che = Chewbacca()
     
-    #starter med å svinge til venstre mot krill 67 grader med 265 mm per sekund og 200 mm. 
+    #starter med å svinge til venstre mot krill 80 grader med 265 mm per sekund og 200 mm. 
     v = che.drive_gyro_dist(start_speed= 0, speed= 265, end_speed= 250,
                             target_distance= 200, target_angle= -80,
                             stop_at_end= False)
     
-    #kjører 230 mm rett frem
+    #kjører 230 mm frem med 20 grader vinkel i 250 mm per sekund i 230 mm.
     v = che.drive_gyro_dist(start_speed= 250, speed=250, end_speed= 250,
                             target_distance=230, target_angle= -20,
                             stop_at_end= False)
-    #kjører 200 mm rett frem
+    
+    #kjører 200 mm frem med 15 grader vinkel i 250 mm per sekund i 210 mm.
     v = che.drive_gyro_dist(start_speed= 250, speed=250, end_speed=0,
                             target_distance=210, target_angle= -15,
                             stop_at_end= True)
