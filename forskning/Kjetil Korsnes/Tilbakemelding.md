@@ -58,7 +58,7 @@
 	* Erfaring med flyvrak
 		* Flyvrak på land
 			* Mye stål og til en viss grad aluminium og magnesium
-				* Det som ble ødelagt på vann ble bevart i sjøen
+				* Det som ble ødelagt på land ble bevart i sjøen
 		* Flyvrak på hav
 			* Det du lager av magnesiumlagering tåler ikke sjøvann
 				* Kjemisk løsning
