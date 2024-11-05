@@ -8,7 +8,7 @@
 			* Ikke ta med andre detaljer så man kan fokusere
 			* Velge kun det dere fokuserer
 	* Veldig bra løsning
-		* Har dere tenkt om timer åpner havfiske og hva skjer med krabbeteina selv?
+		* Har dere tenkt om timer som har åpnet seg og hva skjer da med krabbeteina selv?
 			* Hva skjer med redskapet?
 				* Være mer tydelig på det
 			* Svar:
