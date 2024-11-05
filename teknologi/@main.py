@@ -93,7 +93,7 @@ while True:
                 elif prognr == 5:
                     pass
                 elif prognr == 6:
-                    pass
+                     pass
                 elif prognr == 7:
                     pass
                 elif prognr == 8:

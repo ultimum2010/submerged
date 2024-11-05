@@ -88,24 +88,29 @@ def run():
     
 
     chewie.work_motor_L(speed= 500, target_rotation= 500)
-    chewie.work_motor_L(speed= 500, target_rotation= -550)
+    chewie.work_motor_L(speed= 500, target_rotation= -600)
 
+    # kjører opp mot og løfter opp M14
     v = chewie.drive_gyro_turn(start_speed= v, speed= -100, end_speed= 0, 
-                                turn_radius= 300, turn_angle= -32,
+                                turn_radius= 300, turn_angle= -35 ,
                                 stop_at_end= True,)
     
     v = chewie.drive_gyro_turn(start_speed= v, speed= 70, end_speed= 0, 
-                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= 40,
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= 37,
                                 stop_at_end= False,)
 
-    v = chewie.drive_gyro_turn(start_speed= v, speed= 70, end_speed= 0, 
-                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= 40,
-                                stop_at_end= True,)
+    # v = chewie.drive_gyro_turn(start_speed= v, speed= 70, end_speed= 0, 
+    #                             turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= 5,
+    #                             stop_at_end= True,)
 
-    chewie.work_motor_L(speed= 500, target_rotation= -1050)
+    v = chewie.drive_gyro_dist(start_speed= v, speed= 50, end_speed= 0,
+                               target_distance= 50, target_angle= 31  ,
+                               stop_at_end= True)
+
+    chewie.work_motor_L(speed= 500, target_rotation= -1150)
 
     v = chewie.drive_gyro_turn(start_speed= v, speed= -70, end_speed= 0, 
-                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -6,
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -10,
                                 stop_at_end= False,)
 
     v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,

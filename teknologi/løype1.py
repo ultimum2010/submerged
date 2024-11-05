@@ -21,7 +21,7 @@ def run():
     
     chewie.vri_til_retning(32)
 
-    chewie.work_motor_L(speed=-360, target_rotation=500)
+    chewie.work_motor_L(speed=-360, target_rotation=470)
     
     chewie.drive_gyro_dist(start_speed= 0, speed= 100, end_speed= 0,
                            target_distance= 70, target_angle= 32,
@@ -63,8 +63,17 @@ def run():
     chewie.work_motor_L(speed=-360, target_rotation=450)
 
     chewie.drive_gyro_dist(start_speed= 0, speed= 50, end_speed= 0,
-                           target_distance= 60, target_angle= 75,
+                           target_distance= 58, target_angle= 75,
                            stop_at_end= True)
+    
+    chewie.work_motor_L(speed=-100, target_rotation= 120)
+
+    chewie.drive_gyro_dist(start_speed= 0, speed= 50, end_speed= 0,
+                           target_distance= -60, target_angle= 75,
+                           stop_at_end= True)
+    
+    chewie.work_motor_L(speed=-100, target_rotation= -300)
+
     return
 
     chewie.drive_gyro_turn(start_speed= 250, speed= 250, end_speed= 250, 
