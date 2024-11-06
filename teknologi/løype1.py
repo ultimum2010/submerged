@@ -21,7 +21,7 @@ def run():
     
     chewie.vri_til_retning(32)
 
-    chewie.work_motor_L(speed=-360, target_rotation=470)
+    chewie.work_motor_L(speed=-360, target_rotation=490)
     
     chewie.drive_gyro_dist(start_speed= 0, speed= 100, end_speed= 0,
                            target_distance= 70, target_angle= 32,

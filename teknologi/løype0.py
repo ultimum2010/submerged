@@ -83,7 +83,7 @@ def run():
                                 stop_at_end= True,)
     
     v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,
-                               target_distance= 117, target_angle= -54  ,
+                               target_distance= 135, target_angle= -54    ,
                                stop_at_end= True)
     
 
@@ -104,17 +104,37 @@ def run():
     #                             stop_at_end= True,)
 
     v = chewie.drive_gyro_dist(start_speed= v, speed= 50, end_speed= 0,
-                               target_distance= 50, target_angle= 31  ,
+                               target_distance= 70, target_angle= 30  ,
                                stop_at_end= True)
 
     chewie.work_motor_L(speed= 500, target_rotation= -1150)
 
     v = chewie.drive_gyro_turn(start_speed= v, speed= -70, end_speed= 0, 
-                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -10,
-                                stop_at_end= False,)
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -30,
+                                stop_at_end= True,)
+
+    # løser M10
+    chewie.work_motor_L(speed= 500, target_rotation= 1100)
 
     v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,
-                               target_distance= 123, target_angle= 90  ,
+                               target_distance= 103, target_angle= 90  ,
+                               stop_at_end= False)
+
+    v = chewie.drive_gyro_turn(start_speed= v, speed= 70, end_speed= 0, 
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -28,
+                                stop_at_end= True,)
+
+    chewie.work_motor_L(speed= 500, target_rotation= -1100)
+
+    time.sleep(1)
+
+    v = chewie.drive_gyro_turn(start_speed= v, speed= -70, end_speed= 0, 
+                                turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -30,
+                                stop_at_end= True,)
+
+    # kjører mot og løser M09
+    v = chewie.drive_gyro_dist(start_speed= v, speed= 300, end_speed= 0,
+                               target_distance= 400, target_angle= 90  ,
                                stop_at_end= True)
 
     # v = chewie.drive_gyro_dist(start_speed= v, speed= 100, end_speed= 0,
