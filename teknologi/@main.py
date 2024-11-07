@@ -5,6 +5,7 @@ from pybricks.parameters import Button
 
 import løype0 
 import løype1 
+import m08_habitat
 import m14
 import m15
 
@@ -84,7 +85,7 @@ while True:
                 elif prognr == 1:
                     løype1.run()
                 elif prognr == 2:
-                    pass
+                    m08_habitat.run()
                 elif prognr == 3:
                     m14.run()
                 elif prognr == 4:
@@ -92,13 +93,13 @@ while True:
                 elif prognr == 5:
                     pass
                 elif prognr == 6:
-                    pass
+                     pass
                 elif prognr == 7:
                     pass
                 elif prognr == 8:
                     pass
                 elif prognr == 9:
-                    pass
+                    chewie.vask_hjul()
                 prognr = prognr + 1
 
     #ikke la prognr bli større enn max eller mindre en min

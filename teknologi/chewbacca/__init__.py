@@ -24,8 +24,8 @@ class Chewbacca:
     WHEEL_MAX_ACCELERATION = 400   #grader pr sekund   pr  sekund
     DRIVEBASE_MAX_SPEED = 620
     DRIVEBASE_MAX_ACCELERATION = 40
-    DRIVEBASE_MAX_TURNRATE = 360
-    DRIVEBASE_MAX_TURN_ACCELERATION = 360
+    DRIVEBASE_MAX_TURNRATE = 120
+    DRIVEBASE_MAX_TURN_ACCELERATION = 120
     
     ACCELERATION = 500 #mm/s²
     MIN_DECELERATION_SPEED = 50 #mm/s
@@ -55,7 +55,7 @@ class Chewbacca:
         self.gyro_correction = 0
         #self.motor_L.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
         #self.motor_R.control.limits(Chewbacca.WHEEL_MAX_ROTATION_SPEED, Chewbacca.WHEEL_MAX_ACCELERATION, 100)
-        #self.__driveBase__.settings(Chewbacca.DRIVEBASE_MAX_SPEED, Chewbacca.DRIVEBASE_MAX_ACCELERATION, Chewbacca.DRIVEBASE_MAX_TURNRATE, Chewbacca.DRIVEBASE_MAX_TURN_ACCELERATION)
+        self.__driveBase__.settings(Chewbacca.DRIVEBASE_MAX_SPEED, Chewbacca.DRIVEBASE_MAX_ACCELERATION, Chewbacca.DRIVEBASE_MAX_TURNRATE, Chewbacca.DRIVEBASE_MAX_TURN_ACCELERATION)
         print("Timecode;Set speed;Actual speed;End of method mark")
 
     def trippteller(self):
@@ -363,8 +363,8 @@ class Chewbacca:
         if not rygger:
             #kjøres når du ikke rygger
             while not reached_goal:
-                gyrovinkel = -(self.gyro.angle() - self.gyro_correction)
-                svinge_hastighet = abs(gyrovinkel - target_angle * kP)
+                gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+                svinge_hastighet = abs(gyrovinkel - target_angle) * kP
 
                 distance = self.trippteller() - distance0
 
@@ -406,8 +406,9 @@ class Chewbacca:
         else:
             #kjøres når du rygger
             while not reached_goal:
-                gyrovinkel = -(self.gyro.angle() - self.gyro_correction)
-                svinge_hastighet = abs(gyrovinkel - target_angle * kP)
+                gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+                svinge_hastighet = abs(gyrovinkel - target_angle) * kP
+
 
                 distance = self.trippteller() - distance0
 
@@ -530,3 +531,43 @@ class Chewbacca:
         self.motor_R.control.limits(self.forrige_limit[0], self.forrige_limit[1], self.forrige_limit[2])
 
 
+    def press_r_arbeid_opp(self, fart=45, kraft=30):
+        self.__motor_work_R__.stop()
+
+        self.forrige_work_limit = self.__motor_work_R__.control.limits()
+        self.__motor_work_R__.control.limits(self.forrige_work_limit[0], self.forrige_work_limit[1], kraft)
+
+        self.__motor_work_R__.run(fart) #grader pr sekund
+
+    def press_r_arbeid_ferdig(self):
+        self.__motor_work_R__.stop()
+        self.__motor_work_R__.control.limits(self.forrige_work_limit[0], self.forrige_work_limit[1], self.forrige_work_limit[2])
+
+
+    def vask_hjul(self, fart=180 ):
+        self.motor_L.run(fart) #grader pr sekund
+        self.motor_R.run(fart) #grader pr sekund
+    
+        #les knapper
+        knapp_er_trykt = False
+        while not knapp_er_trykt:
+            knapp_verdi = self.brain.buttons.pressed() 
+
+            #er alle knapper ute
+            if knapp_verdi:
+                knapp_er_trykt = True
+
+        self.motor_L.stop()
+        self.motor_R.stop()
+
+    def vri_til_retning(self, retning):
+        gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+        feil =  gyrovinkel - retning
+        
+        while abs(feil) > 2:
+            self.__driveBase__.turn(-feil)
+            
+            gyrovinkel = (-self.gyro.angle() - self.gyro_correction)
+            feil = gyrovinkel - retning
+
+        self.__driveBase__.stop()
