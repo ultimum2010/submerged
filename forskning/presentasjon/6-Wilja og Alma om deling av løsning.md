@@ -1,3 +1,11 @@
+# Tilbakemelding fra Kjetil Korsnes
+- professor på Nord Universitet
+## Hva oppnår vi med løsningen?
+- Dyrevelferd er viktig
+- I tillegg er det forsøpling i havet
+- Kjempesmart å gjøre begge deler
+  
+
 # Tilbakemelding fra Gro van der Meeren
 - forsker på Havforskningsinstituttet
 
