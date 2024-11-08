@@ -13,7 +13,8 @@
         Når teina kommer inn går ballongen opp
         Forslag:
             Når ballongen kobles til timer kan ballongen komme opp og viser hvor teina er
-    [Video](https://www.youtube.com/watch?v=px2CT6mflmM) fra Julia
+            
+- [Video](https://www.youtube.com/watch?v=px2CT6mflmM) fra Julia
                 
 
 
