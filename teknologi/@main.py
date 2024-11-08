@@ -83,9 +83,9 @@ while True:
                 elif prognr == 0:
                     løype0.run()
                 elif prognr == 1:
-                    løype1.run()
-                elif prognr == 2:
                     m08_habitat.run()
+                elif prognr == 2:
+                    løype1.run()
                 elif prognr == 3:
                     m14.run()
                 elif prognr == 4:
