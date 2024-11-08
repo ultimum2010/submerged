@@ -1,5 +1,6 @@
 # Turneringsdag 9.november
 - Oppmøte 0830
+- Veiledermøte 0845
 - Øving til teknologi presentasjon 0845
 - Teknologipresentasjon 0900
 - Robotkamp-øving 0930
