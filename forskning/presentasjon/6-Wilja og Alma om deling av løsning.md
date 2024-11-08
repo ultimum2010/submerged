@@ -1,3 +1,19 @@
+# Tilbakemelding fra Kjetil Korsnes
+- professor på Nord Universitet
+## Hva oppnår vi med løsningen?
+- Dyrevelferd er viktig
+- I tillegg er det forsøpling i havet
+- Kjempesmart å gjøre begge deler
+
+## Hva slags materialet kan man bruke å lage teine av?
+
+- Erfaring med flyvrak
+    Flyvrak på land
+        Mye stål og til en viss grad aluminium og magnesium
+            Det som ble ødelagt på land ble bevart i sjøen
+    Flyvrak på hav
+        Det du lager av magnesiumlagering tåler ikke sjøvann  
+
 # Tilbakemelding fra Gro van der Meeren
 - forsker på Havforskningsinstituttet
 
@@ -13,3 +29,13 @@ I kaldt vann kan de da overleve uten mat i opptil fem til seks måneder. En sult
 ## Hva slags materialer brytes ned i vann etter ca et halvt år?
 Der bør dere spørre noen med kunnskap om metaller.
 Problemet med dagens teiner er ikke bare ramma til tinene men minst like mye nettet de er dekket av. Plast er praktisk talt ikke nedbrytbart. Derfor er det krav nå at det skal være et ganske stort hull i nettet, som er lukket med en bomullstråd som vil løse seg opp etter ca. tre måneder. Dette vil krabber overleve å vente på.
+
+# Tilbakemelding fra Julia Olse
+- forsker Nord Universitett på marin forsøpling
+
+## Tilbakemelding om løsning
+- Har ikke hørt om timer
+
+- Fokuser på hva skjer man av selve teinea
+  - Mesteparten av søppel blir igjen i havet
+  - kun 5 % blir skylt på land

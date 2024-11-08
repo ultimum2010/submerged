@@ -6,6 +6,18 @@
   - Kan åpne seg f.eks 2 uker 1 måned
 - Låsen kan brukes flere ganger
 
+# Eksisterende løsning
+
+    Kanada
+        Ballong koblet til teina
+        Når teina kommer inn går ballongen opp
+        Forslag:
+            Når ballongen kobles til timer kan ballongen komme opp og viser hvor teina er
+            
+- [Video](https://www.youtube.com/watch?v=px2CT6mflmM) fra Julia
+                
+
+
 ## Modell
 - Lage notteine med en lås
 - Gjøre ene åpningen til en dør
