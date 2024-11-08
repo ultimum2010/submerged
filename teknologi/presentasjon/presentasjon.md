@@ -10,6 +10,7 @@ Strategi på banen - **Kasper**
   - Mye mer frihet
   - Lettere å skrive når du først kan det
   - Du får gjort det samme som med blokkprogrammering men går raskere å skrive i Python
+- GitHub samarbeid **Alma**
 - Hvorfor har vi gjenbrukt roboten fra i fjor? **Alma**
    - Gjenbrukt av roboten, inspirasjon fra Septem roboten, her er tegningen
    - Beskrive roboten med motorer og sensorer
