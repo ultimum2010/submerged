@@ -21,7 +21,7 @@ def run():
     
     chewie.vri_til_retning(32)
 
-    chewie.work_motor_L(speed=-360, target_rotation=490)
+    chewie.work_motor_L(speed=-360, target_rotation=478)
     
     chewie.drive_gyro_dist(start_speed= 0, speed= 100, end_speed= 0,
                            target_distance= 70, target_angle= 32,
@@ -32,7 +32,7 @@ def run():
     time.sleep(.5)
     chewie.press_robot_frem_ferdig()
     chewie.drive_gyro_dist(start_speed= 0, speed= 50, end_speed= 0,
-                           target_distance= -15, target_angle= 32,
+                           target_distance= -5, target_angle= 32,
                            stop_at_end= True)  
 
     # # M13 Løft vri senk
@@ -55,7 +55,7 @@ def run():
                            stop_at_end= True)
     
     chewie.drive_gyro_turn(start_speed= 0, speed= 150, end_speed= 0, 
-                           turn_radius= 0, turn_angle= 85,
+                           turn_radius= 0, turn_angle= 80,
                            stop_at_end= True)
     
 
@@ -63,7 +63,7 @@ def run():
     chewie.work_motor_L(speed=-360, target_rotation=450)
 
     chewie.drive_gyro_dist(start_speed= 0, speed= 50, end_speed= 0,
-                           target_distance= 58, target_angle= 75,
+                           target_distance= 46, target_angle= 73,
                            stop_at_end= True)
     
     chewie.work_motor_L(speed=-100, target_rotation= 120)
@@ -72,8 +72,43 @@ def run():
                            target_distance= -60, target_angle= 75,
                            stop_at_end= True)
     
+    chewie.drive_gyro_dist(start_speed= 0, speed= 50, end_speed= 0,
+                           target_distance= 34, target_angle= 75,
+                           stop_at_end= True)
+
     chewie.work_motor_L(speed=-100, target_rotation= -300)
 
+    chewie.drive_gyro_turn(start_speed= 0, speed= 100, end_speed= 0, 
+                           turn_radius= 0, turn_angle= -150,
+                           stop_at_end= True)
+    
+    chewie.drive_gyro_dist(start_speed= 0, speed= 200, end_speed= 0,
+                           target_distance= 515, target_angle= -90,
+                           stop_at_end= True)
+    
+    chewie.drive_gyro_turn(start_speed= 0, speed= 50, end_speed= 0, 
+                           turn_radius= 0, turn_angle= 20,
+                           stop_at_end= True)
+    
+    chewie.drive_gyro_dist(start_speed= 0, speed= 150, end_speed= 0,
+                           target_distance= 300, target_angle= -70,
+                           stop_at_end= True)
+    
+    chewie.drive_gyro_turn(start_speed= 0, speed= 100, end_speed= 100, 
+                           turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -30,
+                           stop_at_end= True)
+
+    chewie.drive_gyro_dist(start_speed= 0, speed= 150, end_speed= 0,
+                           target_distance= 200, target_angle= -100,
+                           stop_at_end= False)
+
+    chewie.drive_gyro_turn(start_speed= 0, speed= 100, end_speed= 100, 
+                           turn_radius= chewie.WHEEL_DISTANSE / 2, turn_angle= -30,
+                           stop_at_end= False)
+
+    chewie.drive_gyro_dist(start_speed= 0, speed= 350, end_speed= 0,
+                           target_distance= 800, target_angle= -150,
+                           stop_at_end= True)
     return
 
     chewie.drive_gyro_turn(start_speed= 250, speed= 250, end_speed= 250, 
