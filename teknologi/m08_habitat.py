@@ -48,7 +48,7 @@ def run():
                            stop_at_end= True)
     
     chewie.drive_gyro_dist(start_speed= 0, speed= 100, end_speed= 0,
-                           target_distance= 200, target_angle= -90,
+                           target_distance= 200, target_angle= -89,
                            stop_at_end= True)
     
     
@@ -59,7 +59,7 @@ def run():
                            target_distance= -140, target_angle= -90,
                            stop_at_end= True)
     
-    chewie.work_motor_L(speed=-360, target_rotation=380)
+    chewie.work_motor_L(speed=-360, target_rotation=390)
     
     chewie.drive_gyro_dist(start_speed= 0, speed= 100, end_speed= 0,
                            target_distance= 130, target_angle= -90,
@@ -103,6 +103,6 @@ def run():
     #Alt på plass. Løft armen og rygg hjem
     chewie.work_motor_L(speed=-360, target_rotation=-380) #Løft verktøyet rett opp
     chewie.drive_gyro_dist(start_speed= 0, speed= 350, end_speed= 0,
-                           target_distance= -550, target_angle= -70,
+                           target_distance= -590, target_angle= -70,
                            stop_at_end= True)
  
