@@ -4,7 +4,15 @@
 - Dyrevelferd er viktig
 - I tillegg er det forsøpling i havet
 - Kjempesmart å gjøre begge deler
-  
+
+## Hva slags materialet kan man bruke å lage teine av?
+
+- Erfaring med flyvrak
+    Flyvrak på land
+        Mye stål og til en viss grad aluminium og magnesium
+            Det som ble ødelagt på land ble bevart i sjøen
+    Flyvrak på hav
+        Det du lager av magnesiumlagering tåler ikke sjøvann  
 
 # Tilbakemelding fra Gro van der Meeren
 - forsker på Havforskningsinstituttet
