@@ -17,6 +17,6 @@
    - hvordan kan man vite det i f.eks. Follafjorden at man må ha fiskekort
 - Kan prisøkning på krabbeteiner og garn gjør slik at det blir mindre økning i spøkelsesfiske?
 
-# Til spørsmål
+# Utenom presentasjon
 ## Dilemma problemstilling
 Vi kan enten velge å jobbe med å fjerne de gamle krabbeteinene og garnene som allerede er i havet eller å forhindre ar det kommer flere og blir mer spøkelsesfiske.
