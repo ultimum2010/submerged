@@ -17,7 +17,7 @@ Vi har sett på å lage nettingen av andre materialer som cobber og zink.
 Denne løsningen løser problemet ved at det ikke forsøpler siden teinen allerede er laget av et materiale som løses opp over tid. Det betyr at vår løsning er miljøvennelig. Låsen løser problemet med dyrevelferd. Den gjør det ved at når låsen åpnes kan krabbene komme seg ut. 
 ## Innovasjonseffekt
 ### Hvordan løser løsningen deres det identifiserte problemet på en ny måte og/eller forbedrer eksisterende løsninger på en betydelig måte?
-På notteiner i dag er det kuttet en 15cm lang åpning (påbudt av staten). Problemet med denne løsningen er at hullene er ikke stor nok til å slippe ut de største krabbene. Med vår løsning kan vi lage en åpning som er like stor/større enn inngangen så alle dyr som kommer seg inn kan komme seg ut. Låsen vår er også gjennbrukbar så i motsetning til bommulstråen tremger vi ikke bytte ut utstyret for ver gang teinen brukes.
+På notteiner i dag er det kuttet en 15cm lang åpning (påbudt av staten). Problemet med denne løsningen er at hullene er ikke stor nok til å slippe ut de største krabbene. Med vår løsning kan vi lage en åpning som er like stor/større enn inngangen så alle dyr som kommer seg inn kan komme seg ut. Bomullstråen løser seg opp i vann etter ca 3 måneder.Låsen vår er også gjennbrukbar så i motsetning til bommulstråen tremger vi ikke bytte ut utstyret for ver gang teinen brukes.
 ### Hvordan vil løsningen deres påvirke de den løser et problem for?
 ## Skapelse
 ### Hvordan utviklet laget løsningen?
