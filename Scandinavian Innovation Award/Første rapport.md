@@ -24,6 +24,11 @@ Vi fant et tema som vi synes var interessant å jobbe med, også dykket vi dyper
 Vår modell er laget i appen minecraft. I Minecraft kan man se hvordan låsen frakobles den andre delen av låsen. Da ser vi at veggen detter ned og krabbene kommer seg ut. Vi har tegnet låsen mer detaljert på papir for å vise hvordan låsen fungerer. Der Minecraft viser hvordan låsen virker i praksis, viser tegningen hvordan låsen ser ut og alle egenskapene med den. Låsen vår er mekanisk, og på tegningen står det at vi har brukt magnesium, men etter mer forskning har vi funnet ut at magnesium imploderer i vann. Det sier oss at vi ikke kan bruke magnesium som materiale for lås. 
 ## Implementering
 ### Hvordan vil løsningen bli implementert?
+Vi har ulike forslag til hvordan løsningen vil bli implementert:
+1. Vi kan lage en legering med kobber eller sink blannet med magnesium for at magnesiumen blir beskyttet fra å oksidere.
+2. Vi kan bruke ren kobber eller ren sink
+3. Vi kan bruke naturfiber (f.eks bomull). Men da vi spurte en ekspert som jobber på havforskningsinstituttet kalt Gro, fikk vi vite at naturfiber ville vært for enkelt for krabben å klippe seg igjennom.
+4. Vi fikk også tips fra en ekspert kalt Nils-Petter som jobber på NTNU. Han sa at stål som er galvanisk koblet ville fungere bra som netting. Dette er noe vi skal forske videre på.
 ### Hvilke faktorer har dere vurdert for å vurdere gjennomførbarheten?
 - (kostnad, materialer, produksjon og markedsundersøkelser osv.)
 - (Svar kan inkludere relevant analyse og/eller profesjonelle bekreftelser.)
