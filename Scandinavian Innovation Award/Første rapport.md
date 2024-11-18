@@ -1,5 +1,6 @@
 # Første rapport for Scandinavian Innovation Award
 ## Navnet på det innovative prosjektet deres
+Lapides som betyr teine på latin. 
 ## Lagets navn
 ## Lagbilde (bilde av laget og/eller laglogo)
 ## Kort beskrivelse av laget
