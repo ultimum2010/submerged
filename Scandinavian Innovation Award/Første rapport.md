@@ -5,7 +5,9 @@
 ## Kort beskrivelse av laget
 ## Oversikt:
 ### Hvilket problem prøver laget å løse?
+Den problemstillingen som vi har valgt er Hvordan kan man endre krabbeteiner slik at de ikke forsøpler og spøkelsesfisker på havbunnen?  
 ### Hvorfor valgte laget dette problemet?
+Vi valgte dette problemet fordi vi vil ta mer vare på dyrene i havet og ta vare på miljøet. Vi jobber etter FNs bærekraftsmål. Spøkelsesfiske er et veldig viktig tema, som ikke er prioritert nok. Vi vil gjøre at krabbeteinene ikke forsøpler, men også at de skal være av bra materiale som er effektivt. 
 ## Beskrivelse:
 ### Hva er løsningen, og hvordan fungerer løsningen?
 ### Hvordan løser den problemet?
