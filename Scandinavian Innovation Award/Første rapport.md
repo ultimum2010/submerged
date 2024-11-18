@@ -27,6 +27,7 @@ Vår modell er laget i appen minecraft. I Minecraft kan man se hvordan låsen fr
 ### Hvilke faktorer har dere vurdert for å vurdere gjennomførbarheten?
 - (kostnad, materialer, produksjon og markedsundersøkelser osv.)
 - (Svar kan inkludere relevant analyse og/eller profesjonelle bekreftelser.)
+
 ## Støttedokumentasjon (valgfritt)
 - Maksimalt én side i tillegg til prosjektbeskrivelsen på to sider.
 - Kan inkludere diagrammer, tegninger, bilder eller andre detaljer som kan støtte løsningen din.
