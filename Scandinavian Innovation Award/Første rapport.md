@@ -4,6 +4,9 @@ Lapides som betyr teine på latin.
 ## Lagets navn
 ## Lagbilde (bilde av laget og/eller laglogo)
 ## Kort beskrivelse av laget
+Hei, vi er et first lego league lag som heter Mission Possible. Vi er fra Bodø i salten regionen.
+Laget vårt består av 2 jenter og 2 gutter. Vi går i 9.klasse på hunstad ungdomskole og er alle født i 2010. 
+Lagets instagram bruker heter Mission_Possible_9, der kan du følge med på hva vi gjør. På github har vi dokumentert alt vi har jobbet med. 
 ## Oversikt:
 ### Hvilket problem prøver laget å løse?
 Den problemstillingen som vi har valgt er Hvordan kan man endre krabbeteiner slik at de ikke forsøpler og spøkelsesfisker på havbunnen?  
