@@ -36,6 +36,8 @@ Vi har ulike forslag til hvordan løsningen vil bli implementert:
 2. Vi kan bruke ren kobber eller ren sink 
 ### Hvilke faktorer har dere vurdert for å vurdere gjennomførbarheten?
 - (kostnad, materialer, produksjon og markedsundersøkelser osv.)
+-  Vi snakket med en hobbyfisker om de kunne tenke seg å bruke løsningen vår.
+- Vi har også snakket om å ta kontakt med staten for å gjøre det påbudt at krabbeteinene skal være av et miljøvennlig matriale. Staten har allerede gjort det påbudt med en 15cm åpning i siden på teinene.
 - (Svar kan inkludere relevant analyse og/eller profesjonelle bekreftelser.)
 ## Støttedokumentasjon (valgfritt)
 - Maksimalt én side i tillegg til prosjektbeskrivelsen på to sider.
