@@ -19,6 +19,7 @@ Vi har sett på å lage nettingen av andre materialer som cobber og zink.
 ### Hvordan løser den problemet?
 ## Innovasjonseffekt
 ### Hvordan løser løsningen deres det identifiserte problemet på en ny måte og/eller forbedrer eksisterende løsninger på en betydelig måte?
+På notteiner i dag er det kuttet en 15cm lang åpning (påbudt av staten). Problemet med denne løsningen er at hullene er ikke stor nok til å slippe ut de største krabbene. Med vår løsning kan vi lage en åpning som er like stor/større enn inngangen så alle dyr som kommer seg inn kan komme seg ut. Bomullstråen løser seg opp i vann etter ca 3 måneder.Låsen vår er også gjennbrukbar så i motsetning til bommulstråen tremger vi ikke bytte ut utstyret for ver gang teinen brukes.
 ### Hvordan vil løsningen deres påvirke de den løser et problem for?
 Vi snakket med en fisker kalt Vegar Johansen som fisker kongekrabbe. De har rundt17 teiner som de har brukt rundt 50 000kr på. Han fortalte oss etter spørsmål at de kom til å velge effektivitet over miljøværn men de valgte en miljøvennlig løsning hvis den er like effektiv som de teinene de har i dag
 ## Skapelse
