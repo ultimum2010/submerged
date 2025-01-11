@@ -9,6 +9,7 @@
 ## Kostnader
 
 ## Enkel produksjon
+- Be produsenter lage dette
 
 ## Lov om miljøvennlige teiner
 - Trenger ikke være bare basert på låsen
