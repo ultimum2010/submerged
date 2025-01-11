@@ -17,7 +17,8 @@
   - Trekkoppbil
     - **Jo flere tannhjul man setter på jo tregere går det**
   - Eggkoker
-- Låsen kan hektes på teina
+- Låsen kan hektes på teina istedenfor å ha låsen fast på teine
+  - Kan være ferdigmontert med mulighet til å koble låsen fra teina
 
 ### Materialet på låsen - ikke nedbrytbar materialet
 - den er beskyttet
