@@ -2,7 +2,7 @@
 - Låsen med rømningsluke
   - Lage rømningsluke på begge sider
 
-# Materialer
+# Materialer på teina
 - Bambus
   - Ikke tre men det er gress
   - Vokser 90cm på en gang så vi ikke tar
