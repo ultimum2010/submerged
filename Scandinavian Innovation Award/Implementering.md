@@ -10,4 +10,7 @@
 
 ## Enkel produksjon
 
+## Lov om miljøvennlige teiner
+- Trenger ikke være bare basert på låsen
+
 ## Forretningsmodell
