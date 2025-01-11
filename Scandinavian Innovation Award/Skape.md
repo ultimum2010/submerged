@@ -17,6 +17,7 @@
   - Trekkoppbil
     - **Jo flere tannhjul man setter på jo tregere går det**
   - Eggkoker
+    - Innstillingen på "eggkoker" skal være 1 time eller 1 dager istedenfor minutter 
 - Låsen kan hektes på teina istedenfor å ha låsen fast på teine
   - Kan være ferdigmontert med mulighet til å koble låsen fra teina
 
