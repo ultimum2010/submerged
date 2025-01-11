@@ -8,7 +8,7 @@
     - Må kunne brukes flere ganger
     - Må være tjukt nok til at krabben ikke kan klippe den  
 - Hvor den kan skaffes
-- Sjekke om den er spiselig
+- Den er spiselig og om utfordringen med dette
 
 ## Modell på låsen
 - Begynne med 3D-modell av utsiden av låsen
