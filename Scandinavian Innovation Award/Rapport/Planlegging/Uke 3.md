@@ -13,6 +13,7 @@
 ## Modell på låsen
 - Begynne med 3D-modell av utsiden av låsen
   - 3D modellen må være av noe som ikke finnes fra før
+     - Lage modellen av delen for tidsstyring 
   - Vi har eksempler på [låsen som kan kjøpes](https://partilageret.no/products/skaplas?variant=41886339596454)
 - Hvordan skal den se ut?
    - Må være stor nok til at vi kan ha tannhjulsystemet
