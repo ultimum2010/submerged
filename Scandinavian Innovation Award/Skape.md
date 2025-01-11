@@ -17,6 +17,16 @@
   - Trekkoppbil
     - **Jo flere tannhjul man setter på jo tregere går det**
   - Eggkoker
+- Låsen kan hektes på teina
+
+### Materialet på låsen - ikke nedbrytbar materialet
+- den er beskyttet
+- kombinert med sporingsbrikke slik at man kan finne den igjen etter at nettingen er borte
+
+### Panting av materialet for å redusere teinesvinng
+- brukte låser kan pantes inn igjen
+- brukte teiner som kan pantes inn igjen?
+- kan sjekke om panteprosesser i dag
   
 ## Mål
 - Skal være lokalprodusert
