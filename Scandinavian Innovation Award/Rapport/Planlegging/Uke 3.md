@@ -1,7 +1,7 @@
 # Plan for uke 3
 
-## Materialet for teina
-- Forske mer på bambus: Wilja og Alma
+## Materialet for teina - Wilja og Alma
+- Forske mer på bambus
   - Kostnader
   - Om den funker som teina
     - Må ikke brytes ned for fort
@@ -10,7 +10,7 @@
 - Hvor den kan skaffes
 - Den er spiselig og om utfordringen med dette
 
-## Modell på låsen
+## Modell på låsen - Kasper og Sivert
 - Begynne med 3D-modell av utsiden av låsen
   - 3D modellen må være av noe som ikke finnes fra før
      - Lage modellen av delen for tidsstyring 
