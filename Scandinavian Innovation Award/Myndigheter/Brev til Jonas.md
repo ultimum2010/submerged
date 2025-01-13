@@ -12,6 +12,7 @@ Så vi skal til Oslo den 10. Februar for å konkurrere mot 8 andre lag fra Norge
 Problemstillingen vår er; Hvordan kan man endre krabbeteiner slik at de ikke forsøpler og spøkelsesfisker på havbunnen.
 
 Vi har kommet til en løsning der vi bytter ut rammen til krabbeteinen med et miljøvennlig materiale, og tråden rundt med en legering mellom noen metaller eller stoffer som vi ikke har kommet fram til helt ennå. Vi skal også lage en tidslås som gjør at en vegg åpner seg etter en viss tid, slik at krabber som er offer for spøkelsesfiske slipper ut. Dette er noe som vi tror er en veldig god løsning på problemet.
+
 Så spørsmålet vårt til deg er: Hadde det vært mulig at staten kan gjøre det påbudt å bruke miljøvennlige krabbeteiner?
 
 Du lurer kanskje på hvorfor vi lurer på dette. Det er fordi vi har vært i kontakt med en fisker som sier at han velger effektivitet foran miljøvern.
