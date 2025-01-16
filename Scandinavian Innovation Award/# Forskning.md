@@ -1,10 +1,20 @@
 # Forskning
 ## Brukere av løsningen:
-Fiskere
-Selgere
-Krabber
-Havdyr
-produsenter
+- Fiskere
+   - Fritidsfiskere
+  - Yrkesfiskere
+- Oppdrettsanlegg for krabber
+- Selgere
+- Hvem representerer havdyr i debatten?
+  - Krabber
+  - Havdyr
+  - Miljø under vann
+  - Fiskeminister
+  - Marinbiologer
+  - Havforskningsinstittut
+Produsenter
+De som kan endre loven slik at miljøvennlige krabbeteiner blir lovpålagt
+- Statsminister
 
 ## Låsen
 Den skal være samme materiale som krabbeteinen
