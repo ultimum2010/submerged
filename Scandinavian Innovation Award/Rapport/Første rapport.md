@@ -20,10 +20,38 @@ Med denne låsen kan brukerne selv bestemme hvor lang tid det skal ta før teine
 Vi skal også lage teinen av en annet matriale. 
 Vi har tenkt å lage rammen av tre, vi tenkte å lage nettingen av magnesium men når vi snakket med en forsker på NTNU sa han at  ubeskyttet magnesium ville ta fyr i berøring med vann. "Magnesium uten beskyttelse, oksiderer umiddelbart i vann (tar fyr…), og det blir omtrent umulig å kontrollere noe sånt for en hel netting."
 
-Vi har sett på å lage nettingen av andre materialer som cobber og zink.
+Vi har sett på å lage nettingen av andre materialer:
+#### Bambus
 
+Fordeler:
+- Det vokser fort
+- ganske billig
+- Gror rundt ekvator
+- Finnes bambus oppdrett (gårder der de lager bambus)
+- Miljøvennelig og bærekraftig
+- naturlig motstand mot vann
+- For de som bruker krabbeteiner rundt ekvator, så er bambus økologisk produsert og kortreist
 
+Ulemper:
+- Det burde mixes med et annet materiale for maksimal holdbarhet
+- vanskelig å forme
 
+Naturgummi er et materiale som vi eventuelt kan blande med bambus
+
+Fordeler:
+Miljøvennelig
+produseres på en bærekraftig måte
+Produseres i afrika, asia og søramerika
+
+Ulemper:
+vanskelig å gro
+ganske dyrt
+
+#### Andre materialer
+- kork
+- Hamp, sisal og jute
+- Rattan
+- galvanisert stål
 
 
 ### Hvordan løser den problemet?
