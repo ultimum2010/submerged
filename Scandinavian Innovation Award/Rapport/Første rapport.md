@@ -14,9 +14,18 @@ Den problemstillingen som vi har valgt er Hvordan kan man endre krabbeteiner sli
 Vi valgte dette problemet fordi vi vil ta mer vare på dyrene i havet og ta vare på miljøet. Vi jobber etter FNs bærekraftsmål. Spøkelsesfiske er et veldig viktig tema, som ikke er prioritert nok. Vi vil gjøre at krabbeteinene ikke forsøpler, men også at de skal være av bra materiale som er effektivt. 
 ## Beskrivelse:
 ### Hva er løsningen, og hvordan fungerer løsningen?
-Løsningen vår er å bytte ut den ene inngangen på en notteine med en vegg som kan dette ned flatt. Denne veggen er festet med en tidslås på toppen av teinen som kan løse seg opp etter en gitt tid. Med denne låsen kan brukerne selv bestemme hvor lang tid det skal ta før teinen åpner seg. Vi skal også lage teinen av en annet matriale. Vi har tenkt å lage rammen av tre, vi tenkte å lage nettingen av magnesium men når vi snakket med en forsker på NTNU sa han at  ubeskyttet magnesium ville ta fyr i berøring med vann. "Magnesium uten beskyttelse, oksiderer umiddelbart i vann (tar fyr…), og det blir omtrent umulig å kontrollere noe sånt for en hel netting."
+Løsningen vår er å bytte ut den ene inngangen på en notteine med en vegg som kan dette ned flatt. 
+Denne veggen er festet med en tidslås på toppen av teinen som kan løse seg opp etter en gitt tid. 
+Med denne låsen kan brukerne selv bestemme hvor lang tid det skal ta før teinen åpner seg. 
+Vi skal også lage teinen av en annet matriale. 
+Vi har tenkt å lage rammen av tre, vi tenkte å lage nettingen av magnesium men når vi snakket med en forsker på NTNU sa han at  ubeskyttet magnesium ville ta fyr i berøring med vann. "Magnesium uten beskyttelse, oksiderer umiddelbart i vann (tar fyr…), og det blir omtrent umulig å kontrollere noe sånt for en hel netting."
 
 Vi har sett på å lage nettingen av andre materialer som cobber og zink.
+
+
+
+
+
 ### Hvordan løser den problemet?
 Denne løsningen løser problemet ved at det ikke forsøpler siden teinen allerede er laget av et materiale som løses opp over tid. Det betyr at vår løsning er miljøvennelig. Låsen løser problemet med dyrevelferd. Den gjør det ved at når låsen åpnes kan krabbene komme seg ut.
 ## Innovasjonseffekt
