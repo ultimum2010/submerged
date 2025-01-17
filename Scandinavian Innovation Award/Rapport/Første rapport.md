@@ -39,13 +39,13 @@ Ulemper:
 Naturgummi er et materiale som vi eventuelt kan blande med bambus
 
 Fordeler:
-Miljøvennelig
-produseres på en bærekraftig måte
-Produseres i afrika, asia og søramerika
+- Miljøvennelig
+- produseres på en bærekraftig måte
+- Produseres i afrika, asia og søramerika
 
 Ulemper:
-vanskelig å gro
-ganske dyrt
+- vanskelig å gro
+- ganske dyrt
 
 #### Andre materialer
 - kork
