@@ -13,9 +13,9 @@
    - Bevis fra flere kilder
    - Nettsider, se hint fra Gro i mail, panda nettsiden wwf
    - Hvor stort er problemet mest mulig konkret? 
+- Hvordan vi har jobbet og hvorfor - bærekraftsmålene
 - 3D Modell
 - Tegningen
-- Hvordan vi har jobbet og hvorfor - bærekraftsmålene
 - Designkrav
 - Alternative løsninger vi har vært innom men vi ikke fikk til - Bomturer
 - Sitat Thomas Edison: "Jeg har ikke mislyktes. Jeg har bare funnet 10 000 måter som ikke fungerer"
