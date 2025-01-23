@@ -4,9 +4,9 @@
 - Hva kan vi vise som blir uavhengig av det vi finner ut i neste 2 ukene?
 - Struktur på Power-Point
 1. Identifisere
-2. Påvirkning
-3. Skape
-4. Implementering
+1. Påvirkning
+1. Skape
+1. Implementering
 
 ### Det som gjenstår fra sist vi jobbet
 **Lag noen hypoteser om materialvalg**
