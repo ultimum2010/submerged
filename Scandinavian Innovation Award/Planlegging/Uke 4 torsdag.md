@@ -8,6 +8,22 @@
 1. Skape
 1. Implementering
 
+## Slides
+- Problemstilling
+   - Bevis fra flere kilder
+   - Nettsider, se hint fra Gro i mail, panda nettsiden wwf
+   - Hvor stort er problemet mest mulig konkret? 
+- 3D Modell
+- Tegningen
+- Hvordan vi har jobbet og hvorfor - bærekraftsmålene
+- Designkrav
+- Alternative løsninger vi har vært innom men vi ikke fikk til - Bomturer
+- Sitat Thomas Edison: "Jeg har ikke mislyktes. Jeg har bare funnet 10 000 måter som ikke fungerer"
+- Fagfolk vi har snakket med (kanskje)
+- Vil løsningen vi har kommet frem fungerer?
+- Ideen om låsen
+- Hypoteser om materialer
+
 ### Det som gjenstår fra sist vi jobbet
 **Lag noen hypoteser om materialvalg**
 - Lag et forslag til rammmen og nettingen til teina
