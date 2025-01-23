@@ -18,6 +18,13 @@
 
 ### Fylle ut punktene over i Power-Point
 - Gjør undersøkelser!
+- [Det vi skrev om påvirkning](https://github.com/ultimum2010/submerged/blob/main/Scandinavian%20Innovation%20Award/Presentasjon/P%C3%A5virkning.md)
+- [Det vi skrev om å skape](https://github.com/ultimum2010/submerged/blob/main/Scandinavian%20Innovation%20Award/Presentasjon/Skape.md)
+    - [Her kan vi ta med det vi har forsket på](https://github.com/ultimum2010/submerged/blob/main/Scandinavian%20Innovation%20Award/%23%20Forskning.md)
+    - [Gode tanker om design på låsen og materialet](https://github.com/ultimum2010/submerged/blob/main/Scandinavian%20Innovation%20Award/Tanker%20om%20designet%20v%C3%A5rt.md)
+    - [Mer om bambus - kan vi formulere en hypotese rundt det?](https://github.com/ultimum2010/submerged/blob/main/Scandinavian%20Innovation%20Award/bambus.md)
+- [Det vi skrev om implementering](https://github.com/ultimum2010/submerged/blob/main/Scandinavian%20Innovation%20Award/Presentasjon/Implementering.md)
+- Finne ut om punktet Identifisering og ta med i presentasjonen, se mail fra Gro for hint
 
 ## Lage 2 filmer
 - Hva er deres beste minne fra FLL-sesongen?
