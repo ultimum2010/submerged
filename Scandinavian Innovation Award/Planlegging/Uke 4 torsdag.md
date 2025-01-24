@@ -27,10 +27,10 @@
 ### Det som gjenstår fra sist vi jobbet
 **Lag noen hypoteser om materialvalg**
 - Lag et forslag til rammmen og nettingen til teina
-  -- Velg konkrete materialer ut fra det dere har lært på tirsdag
-  -- Forklar hvorfor dere har valgt sammensetningen av akkurat denne kombinasjonen
-  -- Ring Isak og formuler hypotesene
-  -- Mail til Nils Petter Vedvik for tilbakemelding
+  - Velg konkrete materialer ut fra det dere har lært på tirsdag
+  - Forklar hvorfor dere har valgt sammensetningen av akkurat denne kombinasjonen
+  - Ring Isak og formuler hypotesene
+  - Mail til Nils Petter Vedvik for tilbakemelding
 
 ### Fylle ut punktene over i Power-Point
 - Gjør undersøkelser!
