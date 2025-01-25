@@ -19,7 +19,14 @@
    - farge slik at plasten ser ut som materialet vi skal ha
  - Laminerer tegningen vi har brukt til modellen
     - Vise utviklingen av modellen fra første utgave til den siste  
+- Produksjon av produktet
+- Kostnader av produktet
+- Hvordan tjene penger på dette 
 
+## Motivasjon til å implementere
+- Lage Lego Friends episode med krabbteina
+- Stop Motion med Lego figurer
+- 
 ## Foreldreaktivitet
 - Printe navn og logo på gensere
 
