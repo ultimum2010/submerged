@@ -39,3 +39,5 @@
 - Presentasjon 5 min
 - Skaffe dommere
 - Øve inn presentasjon
+- Er det aktuelt å presentere for klassen?
+  - evt. bare for Hege og Linn
