@@ -27,10 +27,10 @@ Veldig bra med tall! Dette gjør livet deres enklere for å finne et godt materi
 
 ### Vår krabbeteine, kommentarer fra Wilja og Alma
 Vi tror at nettingen på krabbeteina vår er cirka 0,16 mm. Det betyr at den blir borte på cirka 1 år.
-For at det ikke skal vises at den ruster kan man bruke vannfast maling. 
 Er rust et problem for miljøet?
 Vil rust påvirke krabbene eller fiskelykken negativt?
 
+For at det ikke skal vises at den ruster(at det korroderer)kan man bruke vannfast maling. 
 Stål er spesielt sårbart for korrosjon når det utsettes for oksygen og fuktighet.
 For å unngå korrosjon på metaller benyttes ofte maling eller lakkering slik at oksygen og vann ikke kommer i kontakt med metallet.
 
