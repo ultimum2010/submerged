@@ -30,7 +30,9 @@ Vi tror at nettingen på krabbeteina vår er cirka 0,16 mm. Det betyr at den bli
 For at det ikke skal vises at den ruster kan man bruke vannfast maling. 
 Er rust et problem for miljøet?
 Vil rust påvirke krabbene eller fiskelykken negativt?
-Hypotese 1: 
+
+Hypotese 1: Hvis vi bruker ett komposittmateriale kan vi bruke bambus med ståltråd eller naturlig linfiberforsterkning (Natural Flax Fiber Reinforcement)
+Hypotese 2:
 
 ## Designkrav til låsen
 * Slippe ut dyret som har satt seg fast
