@@ -1,8 +1,8 @@
 # hvor vi skal ende med produktet og hvor vi skal starte
 
 ## Mål
-* Målet er ikke å kutte ned på antall som fisker krabber
-	* Ønsket er å ha teina som er like effektiv
+* Målet er ikke å kutte ned på antall folk som fisker krabber
+	* Ønsket er å ha teina like effektiv
 * **Vår teine skal forsvinne**
    * Til slutt er de ikke der lenger
 * Brukere vil ikke antagelig kjøpe flere krabbeteiner enn det de må
@@ -21,30 +21,37 @@ Denne burde omformuleres til noe som er mer positivt. Istedenfor å si "ikke kut
 		* Derfor starter vi med lang tidsperspektiv
 ### Tilbakemelding fra Isak
 Veldig bra med tall! Dette gjør livet deres enklere for å finne et godt materiale! 
-[Denne siden viser dere](https://www.materialsperformance.com/articles/corrosion-basics/2020/12/corrosion-impact-of-offshore-platforms-structures-and-vessels#:~:text=This%20is%20due%20to%20the%20high%20oxygen%20and%20chloride%20content,formed%20on%20the%20steel%20surface.&text=This%20zone%20consists%20of%20both,0.65%20to%200.35%20mm%2Fy) at raten til stål f.eks, er på ca 0.3mm/år for tidal zone, som kanskje er den relevante dybden? Da kan dere regne ut hvor lang tid dette tar. Rust vil være stygt da, så det må jo tenkes på. men er bare et eksempel. For 10 år, vil du korrodere 3mm, og tykkelsen på rørene er vell ca den tykkelsen? jaja dere forstår. Tall som det der gjør prosessen enklere.
+[Denne siden viser dere](https://www.materialsperformance.com/articles/corrosion-basics/2020/12/corrosion-impact-of-offshore-platforms-structures-and-vessels#:~:text=This%20is%20due%20to%20the%20high%20oxygen%20and%20chloride%20content,formed%20on%20the%20steel%20surface.&text=This%20zone%20consists%20of%20both,0.65%20to%200.35%20mm%2Fy) at raten til stål f.eks, er på ca 0.3mm per år for tidal sone, som kanskje er den relevante dybden? Da kan dere regne ut hvor lang tid dette tar. Rust vil være stygt da, så det må jo tenkes på, men er bare et eksempel. For 10 år, vil du korrodere 3mm, og tykkelsen på rørene er vell ca den tykkelsen? Tall som det der gjør prosessen enklere.
 
-- MEN! dere burde ha en grunn til hvorfor 10 år. Hvorofr ikke 15? 20? 5?.
+- MEN! Dere burde ha en grunn til hvorfor 10 år. Hvorfor ikke 15? 20? 5?.
 
-## Designkrav tl låsen
+### Vår krabbeteine, kommentarer fra Wilja og Alma
+Vi tror at nettingen på krabbeteina vår er cirka 0,16 mm. Det betyr at den blir borte på cirka 1 år.
+For at det ikke skal vises at den ruster kan man bruke vannfast maling. 
+Er rust et problem for miljøet?
+Vil rust påvirke krabbene eller fiskelykken negativt?
+Hypotese 1: 
+
+## Designkrav til låsen
 * Slippe ut dyret som har satt seg fast
-    * Alt som har satt seg fast skal overlever
+    * Alt som har satt seg fast skal overleve
 * Utløses etter at tiden har gått ut
-    * Låsen skal ha større åpning slik at alt kommer inn i teina skal komme seg ut
-    	* Åpningen er enda større enn inngangen
+    * Låsen skal ha større åpning slik at alt som kommer inn i teina skal komme seg ut
+    	* Åpningen skal være enten like stor som inngangen, eller halvparten så stor.
 * Låsen kan selges for seg selv
     * Må kunne kjøpe låsen og hekte på teina
-	* Flere låser per teine
-		* Kan kjøpe teina individuelt og låsen individuelt
-	* Døra vil åpne seg uten låsen så du må kjøpe låsen
+	* Flere låser per teine?
+		* Kan kjøpe teina individuelt? Men kan kjøpe låsen individuelt
+	* Døra vil åpne seg uten låsen, så du må kjøpe låsen
 * Hva er brukbarheten på låsen?
-     * Hjul som du trekker opp
-	* Når du har begynt å trekke opp så åpner den seg ikke før tiden har gått til 0 igjen
+     * Hjul som du trekkes opp
+	* Når du har begynt å trekke opp, så åpner den seg ikke før tiden har gått til 0 igjen
 * Normal bruk
      * Låsen åpner seg etter angitt tid
      * Må åpne seg på et tidspunkt som er godt etter at teina skal tas opp
 	* Eksempel 3 dager eller mer
         * **Tilbakemelding fra Isak**
-          * dette kan dere finne ut ved å høre med fiskere hvor lenge krabbene overlever i ei teine. garantert noen som har blitt værfast, og teina har bare inneholdt døde dyr. For fiskegarn, så har jeg selv erfart at ved 48 timer så blir fisken spist av krabber.
+          * dette kan dere finne ut ved å høre med fiskere hvor lenge krabbene overlever i ei teine. Garantert noen som har blitt værfast, og teina har bare inneholdt døde dyr. For fiskegarn, så har jeg selv erfart at ved 48 timer så blir fisken spist av krabber.
 * Bruk når teina spøkelsesfisker
      * Åpner seg fortsatt etter den tiden den er satt på slik at krabber kan gå ut
      * Max tid på tiden låsen åpner seg
