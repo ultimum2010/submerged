@@ -70,3 +70,4 @@ Hypotese 3: Hvis vi bruker en legering mellom flere metaller kan vi bruke sink o
 * **Hobby fiskere** eller **fiskere som ikke henter ut så store mengder krabber**
     * Er målgruppa
     * Hobbyfiskere som glemmer å ta opp teiner
+
