@@ -31,8 +31,12 @@ For at det ikke skal vises at den ruster kan man bruke vannfast maling.
 Er rust et problem for miljøet?
 Vil rust påvirke krabbene eller fiskelykken negativt?
 
-Hypotese 1: Hvis vi bruker ett komposittmateriale kan vi bruke bambus med ståltråd eller naturlig linfiberforsterkning (Natural Flax Fiber Reinforcement)
-Hypotese 2:
+Stål er spesielt sårbart for korrosjon når det utsettes for oksygen og fuktighet.
+For å unngå korrosjon på metaller benyttes ofte maling eller lakkering slik at oksygen og vann ikke kommer i kontakt med metallet.
+
+Hypotese 1: Hvis vi bruker ett komposittmateriale kan vi bruke bambus med ståltråd eller naturlig linfiberforsterkning (Natural Flax Fiber Reinforcement).
+Hypotese 2: Hvis vi går for naturstoffer kan vi bruke sisal, hamp, jute, rattan, kork, eller sjøgress.
+Hypotese 3: Hvis vi bruker en legering mellom flere metaller kan vi bruke sink og kobber
 
 ## Designkrav til låsen
 * Slippe ut dyret som har satt seg fast
