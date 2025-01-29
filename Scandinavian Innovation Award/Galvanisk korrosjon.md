@@ -1,4 +1,4 @@
-Begreper innenfor tema: 
+# Begreper innenfor tema: 
 
 • Uedle metaller er grunnstoffer som er metaller som lett oksiderer i luft eller vann. Noen viktige uedle metaller er:
 aluminium, bly, jern, kalsium,  magnesium, kalium, natrium,  mangan og sink 
@@ -26,7 +26,7 @@ For organiske forbindelser er hydrogenering særlig viktig for forbindelser som 
 
 • Overflatebehandling er ulike metoder for å gi overflater et annet utseende, eller for å gjøre overflaten mer motstandsdyktig mot slitasje eller ødeleggelse 
 
-Nyttig fakta: 
+# Nyttig fakta: 
 
 • Galvanisk korrosjon kan skje hvis du kobler forskjellige:
 • metaller, for eksempel kobber og stål 
