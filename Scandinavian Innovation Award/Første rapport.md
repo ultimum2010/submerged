@@ -28,7 +28,7 @@ Vår modell er laget i appen minecraft. I Minecraft kan man se hvordan låsen fr
 - (kostnad, materialer, produksjon og markedsundersøkelser osv.)
 - (Svar kan inkludere relevant analyse og/eller profesjonelle bekreftelser.)
 Det eksemplet Kjetil kom med om flyvrak på land og vann. Det ble observert at de stoffene som ble bevart på land ble borte i vann og motsatt. Magnesium var en av de stofffene som ble borte i vann, derfor tenkte vi og Kjetil at vi kunne bruke det på krabbeteinen. En som het Nils Petter Vedvik sa at ubeskyttet magnesium oksiderte i vann, men hvis det var beskyttet så kunne vi bruke det. Julia snakket jo om eksisterende løsninger men de hun snakket om var litt dyrere og mer høyt teksniske løsninger som ikke alle har råd til. Den løsningen hun snakket om var det det var en blåse som var festet til krabbeteinen og etter en viss tid så fløt den opp til havoverflaten så fiskerne kunne finne den. Problemet med denne løsningen var at det var enklere å tjuvfiske. En annen løsning hun snakket om var det at det var GPS på krabbeteinene så det ble enda enklere å inne den hvis de hadde mistet krabbeteinen. Våres løsningen vår er bedre fordi den er billigere, så flere får råd til å bruke den. Løsningen er også enklere å få tak i så flere får mulighet til å kunne bruke den, ikke bare i I-land men også U-land.
-## Støttedokumentasjon (valgfritt       uw93e
+## Støttedokumentasjon (valgfritt       
 - Maksimalt én side i tillegg til prosjektbeskrivelsen på to sider.
 - Kan inkludere diagrammer, tegninger, bilder eller andre detaljer som kan støtte løsningen din.
 - Prosjektbeskrivelsen skal leveres i PDF-format, og navnet skal inkludere lagnavnet, f.eks. "Projectdescription_Team_Popcorn."
