@@ -22,6 +22,7 @@
 - Sende mail til fagfolk
 - Hvordan kan vi lage krabbeteine?
    - Snakke med fabrikker om hvordan de lager krabbeteiner
+   - Se [denne fabrikken for proffteiner](Proffteiner.no)  
 - Produksjon av produktet
 - Kostnader av produktet
 - Hvordan tjene penger på dette 
