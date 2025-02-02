@@ -6,8 +6,6 @@ Flere uker hadde flydd forbi. Det andre buret så ut som den hadde en like sjebn
 - Med vår løsning ville Harry overlevd, og flere krabber sammen med han. 
 
 
-
-
 ## selgere 
 Vårt mål med selgere er at de skal selge en miljøvennlig krabbeteine som ikke forurenser havbunnen.
 Vi skal selge in vår ide til noen som selger krabbe teiner. Vår plan er å selge låsen som vårt varemerke og selger låsen til firmaer vi tar kontakt med. Alle butikker som vi lager en kontrakt med selger vår lås sammen med teiner og alle som selger vår lås uten lov kan bli saksøkt.
@@ -19,11 +17,11 @@ Proffteiner AS og OK Marine er en nettbutikk som er fokusert mest på yrkesfiske
 Biltema og Jula er mest fokusert på fritidfiskere.
 
 
-
 ## Fritidsfiskere
 Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre. De slipper også skyld hvis de mister en eller flere krabbeteiner. Det blir mer sikkert for mer usikre eller nye krabbefiskere fordi det er mindre sjanse for at det forurenser og spøkelsesfisker. Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt eller at de mister den. Ved hjelp av vår krabbeteine så blir det enklere og tryggere for nye krabbefiskere å fiske. Krabbene kommer seg ut i live og krabbeteina korroderer bort. Det blir mindre søppel på havbunnen og krabbene får leve videre. 
 
 Fritidsfiskere idag er den mest usikre kilden av krabbefiskere idag. Mange kan mindre om det de gjør og derfor er det større sjanse for at ting kan gå galt. Mange fritidsfiskere kjøper også dårligere eller billigere krabbeteiner fordi de bare skal gjøre det som en hobby. De tenker det ikke er verdt å invistere i noe dyrere. Flere kjøper det steder som Biltema, Jula eller butikker som er lik disse. Det er også mulig å kjøpe de på nettet, og da kan det være utrygge eller ikke godkjente krabbeteiner. 
+
 
 ## Referanser om fritidsfiskere
 – Vi i WWF mener det må bli obligatorisk for alle som fisker med garn, ruser og teiner å melde inn tapt utstyr, og at dette dermed også skal gjelde fritidsfiskere. Vi krever også obligatorisk merking av selve fiskeutstyret som brukes på havbunnen og i vannsøylen, ikke bare blåse- og flyteelementer som befinner seg over vannskorpa, presiserer Karoline Andaur.
