@@ -20,14 +20,6 @@ Biltema og Jula er mest fokusert på fritidfiskere.
 
 
 
-
-
-
-
-
-
-
-
 ## Fritidsfiskere
 Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre. De slipper også skyld hvis de mister en eller flere krabbeteiner. Det blir mer sikkert for mer usikre eller nye krabbefiskere fordi det er mindre sjanse for at det forurenser og spøkelsesfisker. Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt eller at de mister den. Ved hjelp av vår krabbeteine så blir det enklere og tryggere for nye krabbefiskere å fiske. Krabbene kommer seg ut i live og krabbeteina korroderer bort. Det blir mindre søppel på havbunnen og krabbene får leve videre. 
 
