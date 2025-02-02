@@ -10,6 +10,7 @@ Flere uker hadde flydd forbi. Det andre buret så ut som den hadde en like sjebn
 Vårt mål med selgere er at de skal selge en miljøvennlig krabbeteine som ikke forurenser havbunnen.
 Vi skal selge in vår ide til noen som selger krabbe teiner. Vår plan er å selge låsen som vårt varemerke og selger låsen til firmaer vi tar kontakt med. Alle butikker som vi lager en kontrakt med selger vår lås sammen med teiner og alle som selger vår lås uten lov kan bli saksøkt.
 
+
 ### utfordringer
 Et problem med dette er at forbrukere ikke vil kjøpe kjøpe vår teine hvis den ikke er like effektiv som de teinene som finnes i dag. Problemet som kan oppstå er at selgere ikke vil selge vår teine hvis den ikke selger like bra som teinene i dag og ikke tar inn like mye penger.Vi ønsker at staten skal gjøre det påbudt med en miljvennlig ktrabbeteine. Foreksempel kan staten gjøre det ulovelig å selge vanlige plastteiner. Staten kan også utbetale subsidier for at selgere skal selge en miljøvennlig krabbeteine.
 Selger vi kan ta kontakt med er: OK Marine, Proffteiner AS, Biltema og Jula.
@@ -18,10 +19,13 @@ Biltema og Jula er mest fokusert på fritidfiskere.
 
 
 ## Fritidsfiskere
-Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre. De slipper også skyld hvis de mister en eller flere krabbeteiner. Det blir mer sikkert for mer usikre eller nye krabbefiskere fordi det er mindre sjanse for at det forurenser og spøkelsesfisker. Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt eller at de mister den. Ved hjelp av vår krabbeteine så blir det enklere og tryggere for nye krabbefiskere å fiske. Krabbene kommer seg ut i live og krabbeteina korroderer bort. Det blir mindre søppel på havbunnen og krabbene får leve videre. 
+Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre. De slipper også skyld hvis de mister en eller flere krabbeteiner. 
+- Brukerne føler de blir mer miljøvennlig og miljøbevisst. 
+Det blir mer sikkert for mer usikre eller nye krabbefiskere fordi det er mindre sjanse for at det forurenser og spøkelsesfisker. Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt eller at de mister den.
+- Amatører eller nybegynnere
+Ved hjelp av vår krabbeteine så blir det enklere og tryggere for nye krabbefiskere å fiske. Krabbene kommer seg ut i live og krabbeteina korroderer bort. Det blir mindre søppel på havbunnen og krabbene får leve videre. 
 
-Fritidsfiskere idag er den mest usikre kilden av krabbefiskere idag. Mange kan mindre om det de gjør og derfor er det større sjanse for at ting kan gå galt. Mange fritidsfiskere kjøper også dårligere eller billigere krabbeteiner fordi de bare skal gjøre det som en hobby. De tenker det ikke er verdt å invistere i noe dyrere. Flere kjøper det steder som Biltema, Jula eller butikker som er lik disse. Det er også mulig å kjøpe de på nettet, og da kan det være utrygge eller ikke godkjente krabbeteiner. 
-
+Fritidsfiskere idag er den mest usikre kilden av krabbefiskere idag. Mange kan mindre om det de gjør og derfor er det større sjanse for at ting kan gå galt. Mange fritidsfiskere kjøper også dårligere eller billigere krabbeteiner fordi de bare skal gjøre det som en hobby. De tenker det ikke er verdt å invistere i noe dyrere. Flere kjøper det steder som Biltema, Jula eller butikker som er lik disse. Det er også mulig å kjøpe de på nettet, og da kan det være utrygge eller ikke godkjente krabbeteiner. Ifølge Fiskeridirektoratet, er det estimert at omtrent 70 % av mistede krabbeteiner i Norge tilhører fritidsfiskere(Fra ChatGPT). 
 
 ## Referanser om fritidsfiskere
 – Vi i WWF mener det må bli obligatorisk for alle som fisker med garn, ruser og teiner å melde inn tapt utstyr, og at dette dermed også skal gjelde fritidsfiskere. Vi krever også obligatorisk merking av selve fiskeutstyret som brukes på havbunnen og i vannsøylen, ikke bare blåse- og flyteelementer som befinner seg over vannskorpa, presiserer Karoline Andaur.
