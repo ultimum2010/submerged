@@ -9,20 +9,9 @@ Flere uker hadde flydd forbi. Det andre buret så ut som den hadde en like sjebn
 
 ## selgere 
 Vårt mål med selgere er at de skal selge en miljøvennlig krabbeteine som ikke forurenser havbunnen.
-Et problem med dette er at forbrukere ikke vil kjøpe kjøpe vår teine hvis den ikke er like effektiv som de teinene som finnes i dag. Problemet som kan oppstå er at selgere ikke vil selge vår teine hvis den ikke selger like bra som teinene i dag og ikke tar inn like mye penger. 
-
-
-
-
-
-
-
-
+Et problem med dette er at forbrukere ikke vil kjøpe kjøpe vår teine hvis den ikke er like effektiv som de teinene som finnes i dag. Problemet som kan oppstå er at selgere ikke vil selge vår teine hvis den ikke selger like bra som teinene i dag og ikke tar inn like mye penger.
 
 
 
 ## Fritidsfiskere
-- Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre
-- De slipper også skyld hvis de mister en eller flere krabbeteiner 
-- Det blir mer sikkert for miljøet fordi det er mindre sjanse for at det forurenser og spøkelsesfisker
-- Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt 
+Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre. De slipper også skyld hvis de mister en eller flere krabbeteiner. Det blir mer sikkert for mer usikre eller nye krabbefiskere fordi det er mindre sjanse for at det forurenser og spøkelsesfisker. Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt eller at de mister den. 
