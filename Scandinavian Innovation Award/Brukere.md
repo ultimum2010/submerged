@@ -21,3 +21,4 @@ Fritidsfiskere idag er den mest usikre kilden av krabbefiskere idag. Mange kan m
 
 ## Referanser om fritidsfiskere
 – Vi i WWF mener det må bli obligatorisk for alle som fisker med garn, ruser og teiner å melde inn tapt utstyr, og at dette dermed også skal gjelde fritidsfiskere. Vi krever også obligatorisk merking av selve fiskeutstyret som brukes på havbunnen og i vannsøylen, ikke bare blåse- og flyteelementer som befinner seg over vannskorpa, presiserer Karoline Andaur.
+https://www.wwf.no/nyheter/spokelsesfiske-en-evigvarende-dodsfelle
