@@ -4,6 +4,8 @@ Det var en gang en krabbe ved navn Harry, som var veldig sulten. En vakker dag, 
 
 Flere uker hadde flydd forbi. Det andre buret så ut som den hadde en like sjebne som Harry sitt. En dag, som var lik som de andre 
 
+
+
 ## selgere 
 Vårt mål med selgere er at de skal selge en miljøvennlig krabbeteine som ikke forurenser havbunnen.
 Et problem med dette er at forbrukere ikke vil kjøpe kjøpe vår teine hvis den ikke er like effektiv som de teinene som finnes i dag. Problemet som kan oppstå er at selgere ikke vil selge vår teine hvis den ikke selger like bra som teinene i dag og ikke tar inn like mye penger. 
