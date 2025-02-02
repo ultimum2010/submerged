@@ -13,7 +13,4 @@ Et problem med dette er at forbrukere ikke vil kjøpe kjøpe vår teine hvis den
 
 
 ## Fritidsfiskere
-- Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre
-- De slipper også skyld hvis de mister en eller flere krabbeteiner 
-- Det blir mer sikkert for miljøet fordi det er mindre sjanse for at det forurenser og spøkelsesfisker
-- Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt 
+Med løsningen vår får fritidsfiskere det bedre ved at de forurenser mye mindre. De slipper også skyld hvis de mister en eller flere krabbeteiner. Det blir mer sikkert for mer usikre eller nye krabbefiskere fordi det er mindre sjanse for at det forurenser og spøkelsesfisker. Mange fritidsfiskere kan ikke så mye om krabbefiske så det er enklere at det skjer noe galt eller at de mister den. 
