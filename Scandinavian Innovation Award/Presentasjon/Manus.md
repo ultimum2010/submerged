@@ -12,7 +12,11 @@
 - Brukerne av vår løsning vil være yrkesfiskere, fritidsfiskere, oppdrettsanlegg for krabber, selgere og krabber.
 
 # Hypoteser
-- 
+- Vi har vært innom mange alternative løsninger.
+- Vi tenkte blant annet på om kompositt ville vært en god ide.
+- Legering med flere metaller er også noe vi har vurdert.
+- Og ikke minst har vi tenkt på naturstoffer.
+
 # Designkrav
 
 # Forretningsmodell
