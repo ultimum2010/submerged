@@ -21,9 +21,9 @@
 - Den skal forurense minst mulig. Vi vil den skal være miljøvennlig. 
 - Låsen skal kunne tas av og på etter brukerens valg
 - Den skal forminske spøkelsesfiske
-- Krabbeteinen skal sånn cirka se ut som en standard krabbeteine
-- Teinen skal ha noe som åpner seg for å slippe ut havdyr
-- Krabbeteinen skal vare rundt 4-5 år
+- Krabbeteinen skal sånn cirka se ut som en standard krabbeteine. Et eksempel på en slik teine er den vanlige krabbe-/hummerteina fra Biltema. 
+- Teinen skal ha noe som åpner seg for å slippe ut havdyr. Vi har valgt en vegg.
+- Krabbeteinen skal vare rundt 4-5 år. Vi tenkte dette var 
 - Etter 10 år i konstant vann, er den ubrukelig
 
 
