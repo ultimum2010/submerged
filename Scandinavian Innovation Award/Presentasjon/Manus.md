@@ -18,6 +18,8 @@
 - Og ikke minst har vi tenkt på naturstoffer.
 
 # Designkrav
+- 
+
 
 # Forretningsmodell
 - Vårt produkt
