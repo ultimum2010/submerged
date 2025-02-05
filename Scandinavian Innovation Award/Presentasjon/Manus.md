@@ -11,20 +11,23 @@
 - Vår løsning har også en mekanisk tidslås som man kan stille inn på en angitt tid. Låsen er festet til toppen av teina og ut stikker en tråd som er koblet til en boks som er festet til den ene veggen. Etter hvert vil låsen slippe tråden som er festet til den ene veggen slik at veggen åpnes og krabbene som er offer for spøkelsesfiske slipper ut.
 - Brukerne av vår løsning vil være yrkesfiskere, fritidsfiskere, oppdrettsanlegg for krabber, selgere og krabber.
 
+# Designkrav
+- Den skal forurense minst mulig. Vi vil den skal være miljøvennlig. 
+- Låsen skal kunne tas av og på etter brukerens valg
+- Den skal forminske spøkelsesfiske
+- Krabbeteinen skal sånn cirka se ut som en standard krabbeteine
+- Teinen skal ha noe som åpner seg for å slippe ut havdyr
+- Krabbeteinen skal vare rundt 4-5 år
+- Etter 10 år i konstant vann, er den ubrukelig
+- 
 # Hypoteser
 - Vi har vært innom mange alternative løsninger.
 - Vi tenkte blant annet på om kompositt ville vært en god ide.
 - Legering med flere metaller er også noe vi har vurdert.
 - Og ikke minst har vi tenkt på naturstoffer.
 
-# Designkrav
-
-
 # Forretningsmodell
 - Vårt produkt
-- 
-
-
 
 
 # Bomturer
