@@ -11,12 +11,6 @@
 - Vår løsning har også en mekanisk tidslås som man kan stille inn på en angitt tid. Låsen er festet til toppen av teina og ut stikker en tråd som er koblet til en boks som er festet til den ene veggen. Etter hvert vil låsen slippe tråden som er festet til den ene veggen slik at veggen åpnes og krabbene som er offer for spøkelsesfiske slipper ut.
 - Brukerne av vår løsning vil være yrkesfiskere, fritidsfiskere, oppdrettsanlegg for krabber, selgere og krabber.
 
-# Hypoteser
-- Vi har vært innom mange alternative løsninger.
-- Vi tenkte blant annet på om kompositt ville vært en god ide.
-- Legering med flere metaller er også noe vi har vurdert.
-- Og ikke minst har vi tenkt på naturstoffer.
-
 # Designkrav
 - Den skal forurense minst mulig. Vi vil den skal være miljøvennlig. 
 - Låsen skal kunne tas av og på etter brukerens valg
@@ -25,17 +19,20 @@
 - Teinen skal ha noe som åpner seg for å slippe ut havdyr. Vi har valgt en vegg.
 - Krabbeteinen skal vare rundt 4-5 år. Vi tenkte dette var 
 - Etter 10 år i konstant vann, er den ubrukelig
-
-
+- 
+# Hypoteser
+- Vi har vært innom mange alternative løsninger.
+- Vi tenkte blant annet på om kompositt ville vært en god ide.
+- Legering med flere metaller er også noe vi har vurdert.
+- Og ikke minst har vi tenkt på naturstoffer.
 
 # Forretningsmodell
 - Vårt produkt
-- 
-
-
 
 
 # Bomturer
 Vi hadde flere bomturer i løpet av forskningsperioden
-- Vi har endret måten vi laget modellen. For eksempel 
+- Vi har endret måten vi laget modellen. For eksempel begynte vi med å lage modellen på minecraft
+- Magnesium var også en bomtur som vi trudde skulle funke, men det fant vi ut at korroderer veldig fort i vann
+- Andre stoffer som Kobber, bioplast og naturgummi var også noe vi gikk bort ifra. 
 
