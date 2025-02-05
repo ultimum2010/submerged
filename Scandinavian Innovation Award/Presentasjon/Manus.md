@@ -19,7 +19,15 @@
 
 # Designkrav
 
+
 # Forretningsmodell
 - Vårt produkt
+- 
 
+
+
+
+# Bomturer
+Vi hadde flere bomturer i løpet av forskningsperioden
+- Vi har endret måten vi laget modellen. For eksempel 
 
