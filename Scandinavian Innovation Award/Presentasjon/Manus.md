@@ -18,7 +18,13 @@
 - Og ikke minst har vi tenkt på naturstoffer.
 
 # Designkrav
-- 
+- Den skal forurense minst mulig. Vi vil den skal være miljøvennlig. 
+- Låsen skal kunne tas av og på etter brukerens valg
+- Den skal forminske spøkelsesfiske
+- Krabbeteinen skal sånn cirka se ut som en standard krabbeteine
+- Teinen skal ha noe som åpner seg for å slippe ut havdyr
+- Krabbeteinen skal vare rundt 4-5 år
+- Etter 10 år i konstant vann, er den ubrukelig
 
 
 # Forretningsmodell
