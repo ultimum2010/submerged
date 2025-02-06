@@ -13,6 +13,9 @@
 - Vår løsning har også en mekanisk tidslås som man kan stille inn på en angitt tid. Låsen er festet til toppen av teina og ut stikker en tråd som er koblet til en boks som er festet til den ene veggen. Etter hvert vil låsen slippe tråden som er festet til den ene veggen slik at veggen åpnes og krabbene som er offer for spøkelsesfiske slipper ut.
 - Brukerne av vår løsning vil være yrkesfiskere, fritidsfiskere, oppdrettsanlegg for krabber, selgere og krabber.
 
+# Modell
+- Vår modell er todelt. Den første delen er en 3D printet lås som skal vise hvordan Låsen vår skal se ut. Den andre delen er en lego modell for å vise hvordan låsen skal fungere(begge feil størelse). (Vise fram og demonstrere lås).
+
 # Designkrav
 - Den skal forurense minst mulig. Vi vil den skal være miljøvennlig. 
 - Låsen skal kunne tas av og på etter brukerens valg
