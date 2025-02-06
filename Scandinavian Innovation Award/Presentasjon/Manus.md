@@ -36,12 +36,23 @@ Låsen vår er en sentral del av løsningen vår. Låsen vår skal korrodere ove
 
 # Forretningsmodell
 - Vårt produkt
+<<<<<<< HEAD
 - Hvordan skal vi selge?
 - Hvordan skal vi ta betalt?
 - Hvordan skal vi levere?
 - Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
 - Hvem er konkurrentene og partnere? Stålprodusenter, og låsprodusenter. 
 - Hva skal vi levere? En lås av stål, og en krabbeteine av ståltråd.
+=======
+- Hva skal vi levere?
+- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere.
+- Hvem er konkurrentene og partnere?
+- Hvordan skal vi selge? Vi må markedsføre produktet vårt. Dette kan vi gjøre med reklame og å markedsføre på nett. Vi kan også gjøre avtaler med butikker om at de også kan reklamere om det. Nyhetsskilt.
+- Hvordan skal vi ta betalt? 
+- Hvordan skal vi levere?
+
+
+>>>>>>> ce0f3de29e6e720f0723c50db6864024c7e646fe
 
 
 # Bomturer
