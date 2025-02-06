@@ -28,6 +28,12 @@
 
 # Forretningsmodell
 - Vårt produkt
+- Hvordan skal vi selge?
+- Hvordan skal vi ta betalt?
+- Hvordan skal vi levere?
+- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
+- Hvem er konkurrentene og partnere?
+- Hva skal vi levere?
 
 
 # Bomturer
