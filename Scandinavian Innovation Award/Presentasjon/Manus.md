@@ -9,7 +9,7 @@
 - Vi har snakkket med flere diverse professorer som er enig i at dette er et relevant og viktig problem. De har snakket med har hjulpet oss med å forbedre prosjektet vårt. 
 
 # Løsning
-- Vår løsning er en miljøvennlig krabbeteine som er bygget opp av stål som vil korrodere etter mange år, men som er bedre enn plast som aldri forsvinner. For eksempel erstatter ståltråd den originale tråden av plast,
+- Vår løsning er en miljøvennlig krabbeteine som er bygget opp av stål som vil korrodere etter mange år, men som er bedre enn plast som aldri forsvinner. For eksempel erstatter ståltråd den originale tråden av plast.
 - Vår løsning har også en mekanisk tidslås som man kan stille inn på en angitt tid. Låsen er festet til toppen av teina og ut stikker en tråd som er koblet til en boks som er festet til den ene veggen. Etter hvert vil låsen slippe tråden som er festet til den ene veggen slik at veggen åpnes og krabbene som er offer for spøkelsesfiske slipper ut.
 - Brukerne av vår løsning vil være yrkesfiskere, fritidsfiskere, oppdrettsanlegg for krabber, selgere og krabber.
 
@@ -57,6 +57,7 @@
 # Brukere 
 - Våre brukere er yrkesfiskere, fritidsfiskere, oppdrettsanlegg og selgere.
 - Vi ønsker å selge låsen som vårt maremerke. Problem: Selgere vil ikke kjøpe vår teine fordi den kanskje ikke selger like bra som vanlige plastteiner.
+- Nybegynnere innenfor krabbefiske er de som vet minst hva de gjør. Derfor er det større sjanse at de mister dem. Med krabbeteina vår er det tryggere for nybegynnere
 
 # Fagfolk vi har snakket med
 - Vi har snakket med flere forskjellige fagfolk som dekker det vi jobber med. De dekker flere viktige tema. Vi har snakket med Gro van der Meeren, Nils Petter Vedvik, Vegar Johansen, Julia Olsen og Kjetil Korsnes.
