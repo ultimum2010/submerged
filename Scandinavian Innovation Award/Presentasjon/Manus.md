@@ -33,10 +33,18 @@
 - Den skal forminske spøkelsesfiske
 - Krabbeteinen skal sånn cirka se ut som en standard krabbeteine. Et eksempel på en slik teine er den vanlige krabbe-/hummerteina fra Biltema. 
 - Teinen skal ha noe som åpner seg for å slippe ut havdyr. Vi har valgt en vegg.
-- Krabbeteinen skal vare rundt 4-5 år. Vi tenkte dette var 
-- Etter 10 år i konstant vann, er den ubrukelig
+- Krabbeteinen skal vare rundt 4-5 år. 
+- Etter 10 år i konstant vann, er den ubrukelig.
 
-<<<<<<< HEAD
+# Vårt produkt
+- Låsen er vår varemerke som vi selger.
+- Du kan kjøpe låsen separat og med ei krabbeteine. Hvis du mister teina og finner den igjen, men har mistet låsen kan du kjøpe en ny. Du slipper du å kjøpe en helt ny teine.
+- Spesialisert teine. 
+- Teina vår er lakkert eller malt for bedre holdbarhet og beskyttelse av stålet. Stål er sensitiv for oksygen og fuktighet og dette hjelper stålet.
+- Den er laget av stål. Både låsen og teina. 
+- Bærekraftsmålene
+- Gjør det påbudt med miljøvennlige og bærekraftige krabbeteiner. 
+
 # Forretningsmodell
 - Vårt produkt
 - Hva skal vi levere? Vi skal levere vår lås og vår spesialiserte krabbeteine.
@@ -46,14 +54,13 @@
 - Hvordan skal vi ta betalt? 
 - Hvordan skal vi levere?
 
-=======
-  # Vårt produkt
-
 # Brukere 
 - Våre brukere er yrkesfiskere, fritidsfiskere, oppdrettsanlegg og selgere.
 - Vi ønsker å selge låsen som vårt maremerke. Problem: Selgere vil ikke kjøpe vår teine fordi den kanskje ikke selger like bra som vanlige plastteiner.
+
+# Fagfolk vi har snakket med
+- Vi har snakket med flere forskjellige fagfolk som dekker det vi jobber med. De dekker flere viktige tema. Vi har snakket med Gro van der Meeren, Nils Petter Vedvik, Vegar Johansen, Julia Olsen og Kjetil Korsnes.
   
->>>>>>> ea806ab80f93e54849fd8159429ceaecf095ddc8
 # Hypoteser
 - Vi har vært innom mange alternative løsninger og vi tenkte blant annet på om kompositt ville vært en god ide.
 - Legering med flere metaller er også noe vi har vurdert.
@@ -65,3 +72,6 @@ Vi hadde flere bomturer i løpet av forskningsperioden
 - Magnesium var også en bomtur som vi trudde skulle funke, men det fant vi ut at korroderer veldig fort i vann
 - Andre stoffer som Kobber, bioplast og naturgummi var også noe vi gikk bort ifra. 
 
+# Sponsorer
+- Her er våre sponsorer. 
+- Vi er sponser av Power Office, Nito og CoWork.
