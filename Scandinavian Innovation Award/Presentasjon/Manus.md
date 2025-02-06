@@ -31,6 +31,8 @@
 - Og ikke minst har vi tenkt på naturstoffer.
 - 
 
+# Låsen
+Låsen vår er en sentral del av løsningen vår. Låsen vår skal korrodere over tid, og den skal være mekanisk. Den skal være av stål. Låsen vår skal kunne endres tid på etter brukerens valg og preferanser. Når tidslåsen utløses, slipper den en vegg ned slik at krabbene kommer seg ut. 
 
 # Forretningsmodell
 - Vårt produkt
