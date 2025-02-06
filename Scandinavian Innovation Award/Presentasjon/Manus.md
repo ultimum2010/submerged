@@ -36,6 +36,7 @@
 - Krabbeteinen skal vare rundt 4-5 år. Vi tenkte dette var 
 - Etter 10 år i konstant vann, er den ubrukelig
 
+<<<<<<< HEAD
 # Forretningsmodell
 - Vårt produkt
 - Hva skal vi levere? Vi skal levere vår lås og vår spesialiserte krabbeteine.
@@ -45,6 +46,14 @@
 - Hvordan skal vi ta betalt? 
 - Hvordan skal vi levere?
 
+=======
+  # Vårt produkt
+
+# Brukere 
+- Våre brukere er yrkesfiskere, fritidsfiskere, oppdrettsanlegg og selgere.
+- Vi ønsker å selge låsen som vårt maremerke. Problem: Selgere vil ikke kjøpe vår teine fordi den kanskje ikke selger like bra som vanlige plastteiner.
+  
+>>>>>>> ea806ab80f93e54849fd8159429ceaecf095ddc8
 # Hypoteser
 - Vi har vært innom mange alternative løsninger og vi tenkte blant annet på om kompositt ville vært en god ide.
 - Legering med flere metaller er også noe vi har vurdert.
