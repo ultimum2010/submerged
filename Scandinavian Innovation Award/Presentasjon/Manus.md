@@ -10,7 +10,8 @@
 
 # Låsen 
 - Vi har laget en lås som skal åpne seg etter et tidspunkt som brukeren selv velger. 
-- Max tid 
+- Minimummen på tid er 2 dager og maxtiden er 1 måned. 
+- 
 
 # Løsning
 - Vår løsning er en miljøvennlig krabbeteine som er bygget opp av stål som vil korrodere etter mange år, men som er bedre enn plast som aldri forsvinner. For eksempel erstatter ståltråd den originale tråden av plast,
@@ -28,9 +29,12 @@
 - Teinen skal ha noe som åpner seg for å slippe ut havdyr. Vi har valgt en vegg.
 - Krabbeteinen skal vare rundt 4-5 år. Vi tenkte dette var 
 - Etter 10 år i konstant vann, er den ubrukelig
+<<<<<<< HEAD
 
  # Brukere
 - Brukerne av vårt produkt er yrkesfiskere, fritidsfiskere, opredsannlegg og selgere.
+=======
+>>>>>>> 309e6f6224caacd1e4f1a4c15155d3c0d47f42a6
 - 
 # Hypoteser
 - Vi har vært innom mange alternative løsninger og vi tenkte blant annet på om kompositt ville vært en god ide.
@@ -38,17 +42,34 @@
 - Og ikke minst har vi tenkt på naturstoffer.
 - 
 
+<<<<<<< HEAD
+=======
+# Låsen
+Låsen vår er en sentral del av løsningen vår. Låsen vår skal korrodere over tid, og den skal være mekanisk. Den skal være av stål. Låsen vår skal kunne endres tid på etter brukerens valg og preferanser. Når tidslåsen utløses, slipper den en vegg ned slik at krabbene kommer seg ut. 
+
+>>>>>>> 309e6f6224caacd1e4f1a4c15155d3c0d47f42a6
 # Forretningsmodell
 - Vårt produkt
+<<<<<<< HEAD
+- Hvordan skal vi selge?
+- Hvordan skal vi ta betalt?
+- Hvordan skal vi levere?
+- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
+- Hvem er konkurrentene og partnere? Stålprodusenter, og låsprodusenter. 
+- Hva skal vi levere? En lås av stål, og en krabbeteine av ståltråd.
+=======
+- Hva skal vi levere?
+- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere.
+- Hvem er konkurrentene og partnere?
 - Hvordan skal vi selge? Vi må markedsføre produktet vårt. Dette kan vi gjøre med reklame og å markedsføre på nett. Vi kan også gjøre avtaler med butikker om at de også kan reklamere om det. Nyhetsskilt.
 - Hvordan skal vi ta betalt? 
 - Hvordan skal vi levere?
-- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
-- Hvem er konkurrentene og partnere?
-- Hva skal vi levere? 
+
+
+>>>>>>> ce0f3de29e6e720f0723c50db6864024c7e646fe
 
 # Bomturer
--Vi hadde flere bomturer i løpet av forskningsperioden
+Vi hadde flere bomturer i løpet av forskningsperioden
 - Vi har endret måten vi laget modellen. For eksempel begynte vi med å lage modellen på minecraft
 - Magnesium var også en bomtur som vi trudde skulle funke, men det fant vi ut at korroderer veldig fort i vann
 - Andre stoffer som Kobber, bioplast og naturgummi var også noe vi gikk bort ifra. 
