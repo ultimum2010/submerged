@@ -34,17 +34,12 @@
 
 # Forretningsmodell
 - Vårt produkt
-- Hvordan skal vi selge? Vi må markedsføre produktet vårt. Dette kan vi gjøre med reklame og å markedsføre på nett. Vi kan også gjøre avtaler med butikker om at de også kan reklamere om det. Nyhetsskilt.
-- Hvordan skal vi ta betalt? 
+- Hvordan skal vi selge?
+- Hvordan skal vi ta betalt?
 - Hvordan skal vi levere?
 - Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
-<<<<<<< HEAD
-- Hvem er konkurrentene og partnere? Stålprodusenter 
+- Hvem er konkurrentene og partnere? Stålprodusenter, og låsprodusenter. 
 - Hva skal vi levere? En lås av stål, og en krabbeteine av ståltråd.
-=======
-- Hvem er konkurrentene og partnere?
-- Hva skal vi levere? 
->>>>>>> 693be9736d44ac928215194d3099bf2ac49cdbc2
 
 
 # Bomturer
