@@ -37,12 +37,14 @@
 
 # Forretningsmodell
 - Vårt produkt
+- Hva skal vi levere?
+- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere.
+- Hvem er konkurrentene og partnere?
 - Hvordan skal vi selge? Vi må markedsføre produktet vårt. Dette kan vi gjøre med reklame og å markedsføre på nett. Vi kan også gjøre avtaler med butikker om at de også kan reklamere om det. Nyhetsskilt.
 - Hvordan skal vi ta betalt? 
 - Hvordan skal vi levere?
-- Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
-- Hvem er konkurrentene og partnere?
-- Hva skal vi levere? 
+
+
 
 
 # Bomturer
