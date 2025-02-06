@@ -38,17 +38,12 @@
 - Hvordan skal vi ta betalt? 
 - Hvordan skal vi levere?
 - Hvem er kunden? Fritidsfiskere og noen yrkesfiskere. 
-<<<<<<< HEAD
-- Hvem er konkurrentene og partnere? Stålprodusenter 
-- Hva skal vi levere? En lås av stål, og en krabbeteine av ståltråd.
-=======
 - Hvem er konkurrentene og partnere?
 - Hva skal vi levere? 
->>>>>>> 693be9736d44ac928215194d3099bf2ac49cdbc2
 
 
 # Bomturer
-Vi hadde flere bomturer i løpet av forskningsperioden
+-Vi hadde flere bomturer i løpet av forskningsperioden
 - Vi har endret måten vi laget modellen. For eksempel begynte vi med å lage modellen på minecraft
 - Magnesium var også en bomtur som vi trudde skulle funke, men det fant vi ut at korroderer veldig fort i vann
 - Andre stoffer som Kobber, bioplast og naturgummi var også noe vi gikk bort ifra. 
