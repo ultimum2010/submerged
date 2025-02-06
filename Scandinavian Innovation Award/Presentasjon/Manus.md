@@ -24,6 +24,9 @@
 - Teinen skal ha noe som åpner seg for å slippe ut havdyr. Vi har valgt en vegg.
 - Krabbeteinen skal vare rundt 4-5 år. Vi tenkte dette var 
 - Etter 10 år i konstant vann, er den ubrukelig
+
+  # Brukere
+- Brukerne av vårt produkt er yrkesfiskere, fritidsfiskere, opredsannlegg og selgere.
 - 
 # Hypoteser
 - Vi har vært innom mange alternative løsninger og vi tenkte blant annet på om kompositt ville vært en god ide.
