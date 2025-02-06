@@ -1,10 +1,12 @@
 # Problemstilling
 - Hvordan kan man endre krabbeteiner slik at de ikke forsøpler og spøkelsesfisker på havbunnen. 
 - Grunnen til at vi valgte akkurat det var fordi det hørtes ut som ett reelt og vanskelig problem. En annen grunn var at ett av bærekraftsmålene bevare livet i havet.
+- Vi har endret en del på problemstillingen vår underveis. Både for å være mer presis men også for å spesifisere hva vi vil jobbe med. 
 
 # Bevis fra flere kilder
-- det er flere kilder som viser at dette er ett reelt problem som burde tas tak i. Blant annet har kilder som: WWF, diverse professorer, Store Norske Leksikon og fiskedirektoratet, nevnt at problemet vårt er viktig.
+- Det er flere kilder som viser at dette er ett reelt problem som burde tas tak i. Blant annet har kilder som: WWF, Store Norske Leksikon og fiskedirektoratet, nevnt at problemet vårt er viktig.
 - Problemet vårt påvirker f.eks livet i havet, krabbefiskere, fritidsfiskere.
+- Vi har snakkket med flere diverse professorer som er enig i at dette er et relevant og viktig problem. De har snakket med har hjulpet oss med å forbedre prosjektet vårt. 
 
 # Løsning
 - Vår løsning er en miljøvennlig krabbeteine som er bygget opp av stål som vil korrodere etter mange år, men som er bedre enn plast som aldri forsvinner. For eksempel erstatter ståltråd den originale tråden av plast,
@@ -21,10 +23,11 @@
 - Etter 10 år i konstant vann, er den ubrukelig
 - 
 # Hypoteser
-- Vi har vært innom mange alternative løsninger.
-- Vi tenkte blant annet på om kompositt ville vært en god ide.
+- Vi har vært innom mange alternative løsninger og vi tenkte blant annet på om kompositt ville vært en god ide.
 - Legering med flere metaller er også noe vi har vurdert.
 - Og ikke minst har vi tenkt på naturstoffer.
+- 
+
 
 # Forretningsmodell
 - Vårt produkt
