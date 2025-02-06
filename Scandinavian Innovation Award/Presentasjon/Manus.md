@@ -67,7 +67,7 @@
 - Og ikke minst har vi tenkt på naturstoffer.
 
 # Bomturer
-Vi hadde flere bomturer i løpet av forskningsperioden
+- Vi hadde flere bomturer i løpet av forskningsperioden
 - Vi har endret måten vi laget modellen. For eksempel begynte vi med å lage modellen på minecraft
 - Magnesium var også en bomtur som vi trudde skulle funke, men det fant vi ut at korroderer veldig fort i vann
 - Andre stoffer som Kobber, bioplast og naturgummi var også noe vi gikk bort ifra. 
