@@ -7,7 +7,7 @@
 1. Tre viktigste ting som dommere skal huske på, inkludert det dere har faktisk valgt som løsning
 2. Forretningsmodell
 3. Tidslinja til teina med resirkulering og pant av både netting og låsen
-4. Bærekraftsmål
+4. Bærekraftsmål, 9, 14 og 12
 5. Segmentdiagram
 ## Hvem
 - Dere blir enige om tre viktigste ting og legg inn på GitHub som egen fil
