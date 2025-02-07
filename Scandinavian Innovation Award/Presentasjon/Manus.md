@@ -69,7 +69,8 @@
 - Legering med flere metaller er også noe vi har vurdert.
 - Og ikke minst har vi tenkt på naturstoffer.
 
-- Her er eksempler på stoffer vi kunne brukt hvis vi hadde brukt kompositt, legering eller naturstoffer. 
+- Her er eksempler på stoffer vi kunne brukt hvis vi hadde brukt kompositt, legering eller naturstoffer.
+- Selv om vi har tenkt på alle disse gikk for stål fordi det varer så lenge som vi vil den skal til en krabbeteine. 
 
 # Bomturer(Alma)
 - Vi hadde flere bomturer i løpet av forskningsperioden.
